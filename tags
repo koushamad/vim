@@ -1,0 +1,1260 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+<C-H>	map.vim	/^nmap <C-H> <C-W><C-H>$/;"	m
+<C-J>	map.vim	/^nmap <C-J> <C-W><C-J>$/;"	m
+<C-K>	map.vim	/^nmap <C-K> <C-W><C-K>$/;"	m
+<C-L>	map.vim	/^nmap <C-L> <C-W><C-L>$/;"	m
+<C-W>	map.vim	/^nmap <C-W> <C-W><C-W>$/;"	m
+<D-1>	map.vim	/^nmap <D-1> :NERDTreeToggle<cr>$/;"	m
+<D-[>	map.vim	/^nmap <D-[> :CtrlP<cr>$/;"	m
+<D-]>	map.vim	/^nmap <D-]> :CtrlPBufTag<cr>$/;"	m
+<Leader><space>	map.vim	/^nmap <Leader><space> :nohlsearch<cr>$/;"	m
+<Leader>ec	map.vim	/^nmap <Leader>ec :tabedit ~\/vim\/config.vim<cr>$/;"	m
+<Leader>em	map.vim	/^nmap <Leader>em :tabedit ~\/vim\/map.vim<cr>$/;"	m
+<Leader>ep	map.vim	/^nmap <Leader>ep :tabedit ~\/vim\/plugin.vim<cr>$/;"	m
+<Leader>ev	map.vim	/^nmap <Leader>ev :tabedit ~\/vim\/vimrc.vim<cr>$/;"	m
+<Leader>f	map.vim	/^nmap <Leader>f :tag<space>$/;"	m
+<SID>:	bundle/vim-fugitive/autoload/fugitive.vim	/^nnoremap <SID>: :<C-U><C-R>=v:count ? v:count : ''<CR>$/;"	m
+AcceptSelection	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:AcceptSelection(action)$/;"	f
+AddHeader	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:AddHeader(key, value) abort$/;"	f
+AddSection	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:AddSection(label, lines, ...) abort$/;"	f
+Aliases	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:Aliases(dir) abort$/;"	f
+AskPassArgs	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:AskPassArgs(dir) abort$/;"	f
+BlameBufnr	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:BlameBufnr(...) abort$/;"	f
+BlameCommit	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:BlameCommit(cmd, ...) abort$/;"	f
+BlameCommitFileLnum	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:BlameCommitFileLnum(...) abort$/;"	f
+BlameFileType	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:BlameFileType() abort$/;"	f
+BlameJump	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:BlameJump(suffix, ...) abort$/;"	f
+BlameLeave	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:BlameLeave() abort$/;"	f
+BlameQuit	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:BlameQuit() abort$/;"	f
+BlameRehighlight	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:BlameRehighlight() abort$/;"	f
+BlameSubcommand	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:BlameSubcommand(line1, count, range, bang, mods, options) abort$/;"	f
+BlobTemp	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:BlobTemp(url) abort$/;"	f
+BlurStatus	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:BlurStatus() abort$/;"	f
+Bookmark.AddBookmark	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.AddBookmark(name, path)$/;"	f
+Bookmark.BookmarkExistsFor	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.BookmarkExistsFor(name)$/;"	f
+Bookmark.BookmarkFor	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.BookmarkFor(name)$/;"	f
+Bookmark.BookmarkNames	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.BookmarkNames()$/;"	f
+Bookmark.Bookmarks	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.Bookmarks()$/;"	f
+Bookmark.CacheBookmarks	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.CacheBookmarks(silent)$/;"	f
+Bookmark.ClearAll	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.ClearAll()$/;"	f
+Bookmark.CompareBookmarksByName	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.CompareBookmarksByName(firstBookmark, secondBookmark)$/;"	f
+Bookmark.Edit	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.Edit()$/;"	f
+Bookmark.GetNodeForName	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.GetNodeForName(name, searchFromAbsoluteRoot, nerdtree)$/;"	f
+Bookmark.GetSelected	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.GetSelected()$/;"	f
+Bookmark.InvalidBookmarks	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.InvalidBookmarks()$/;"	f
+Bookmark.New	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.New(name, path)$/;"	f
+Bookmark.SortBookmarksList	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.SortBookmarksList()$/;"	f
+Bookmark.ToRoot	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.ToRoot(name, nerdtree)$/;"	f
+Bookmark.Write	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.Write()$/;"	f
+Bookmark.activate	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.activate(nerdtree, ...)$/;"	f
+Bookmark.delete	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.delete()$/;"	f
+Bookmark.getNode	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.getNode(nerdtree, searchFromAbsoluteRoot)$/;"	f
+Bookmark.mustExist	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.mustExist()$/;"	f
+Bookmark.open	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.open(nerdtree, ...)$/;"	f
+Bookmark.openInNewTab	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.openInNewTab(options)$/;"	f
+Bookmark.setPath	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.setPath(path)$/;"	f
+Bookmark.str	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.str()$/;"	f
+Bookmark.toRoot	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.toRoot(nerdtree)$/;"	f
+Bookmark.validate	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.validate()$/;"	f
+BufName	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:BufName(var) abort$/;"	f
+BuildEnvPrefix	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:BuildEnvPrefix(env) abort$/;"	f
+BuildPrompt	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:BuildPrompt(upd)$/;"	f
+BuildShell	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:BuildShell(dir, env, args) abort$/;"	f
+Bundle	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=+                                                Bundle        call vundle#config#bundle(<args>)$/;"	c
+BundleClean	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=? -bang                                          BundleClean   PluginClean<bang>$/;"	c
+BundleDocs	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=0                                                BundleDocs    PluginDocs$/;"	c
+BundleInstall	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=? -bang -complete=custom,vundle#scripts#complete BundleInstall PluginInstall<bang> <args>$/;"	c
+BundleList	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=0 -bang                                          BundleList    PluginList<bang>$/;"	c
+BundleSearch	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=? -bang -complete=custom,vundle#scripts#complete BundleSearch  PluginSearch<bang> <args>$/;"	c
+BundleUpdate	bundle/Vundle.vim/autoload/vundle.vim	/^com!                                                         BundleUpdate  PluginInstall!$/;"	c
+CSAHi	colors/atom-dark-256.vim	/^    command! -nargs=+ CSAHi exe "hi" <q-args>$/;"	c
+CSAHi	colors/atom-dark-256.vim	/^    command! -nargs=+ CSAHi exe "hi" substitute(substitute(<q-args>, "undercurl", "underline", "g"), "guisp\\\\S\\\\+", "", "g")$/;"	c
+CeilingDirectories	bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:CeilingDirectories() abort$/;"	f
+ChompDefault	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:ChompDefault(default, ...) abort$/;"	f
+ChompError	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:ChompError(...) abort$/;"	f
+ClearAllCtrlPCaches	bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar ClearAllCtrlPCaches cal ctrlp#clra()$/;"	c
+ClearCtrlPCache	bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar ClearCtrlPCache     cal ctrlp#clr()$/;"	c
+Close	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:Close()$/;"	f
+CommitInteractive	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:CommitInteractive(line1, line2, range, bang, mods, options, patch) abort$/;"	f
+CommitSubcommand	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:CommitSubcommand(line1, line2, range, bang, mods, options) abort$/;"	f
+CompareAge	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:CompareAge(mine, theirs) abort$/;"	f
+CompleteHeads	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:CompleteHeads(dir) abort$/;"	f
+CompleteRemote	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:CompleteRemote(A, L, P, ...) abort$/;"	f
+CompleteRevision	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:CompleteRevision(A, L, P, ...) abort$/;"	f
+CompleteSub	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:CompleteSub(subcommand, A, L, P, ...) abort$/;"	f
+ConfigTimestamps	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:ConfigTimestamps(dir, dict) abort$/;"	f
+ContainingCommit	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:ContainingCommit() abort$/;"	f
+CreateNewFile	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:CreateNewFile(...)$/;"	f
+CreateTabTreeVCS	bundle/nerdtree/nerdtree_plugin/vcs.vim	/^function! s:CreateTabTreeVCS(name)$/;"	f
+Creator.BufNamePrefix	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.BufNamePrefix()$/;"	f
+Creator.CreateMirror	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.CreateMirror()$/;"	f
+Creator.CreateTabTree	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.CreateTabTree(name)$/;"	f
+Creator.CreateWindowTree	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.CreateWindowTree(dir)$/;"	f
+Creator.New	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.New()$/;"	f
+Creator.ToggleTabTree	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.ToggleTabTree(dir)$/;"	f
+Creator._bindMappings	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._bindMappings()$/;"	f
+Creator._broadcastInitEvent	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._broadcastInitEvent()$/;"	f
+Creator._createNERDTree	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._createNERDTree(path, type)$/;"	f
+Creator._createTreeWin	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._createTreeWin()$/;"	f
+Creator._isBufHidden	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._isBufHidden(nr)$/;"	f
+Creator._nextBufferName	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._nextBufferName()$/;"	f
+Creator._nextBufferNumber	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._nextBufferNumber()$/;"	f
+Creator._pathForString	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._pathForString(str)$/;"	f
+Creator._removeTreeBufForTab	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._removeTreeBufForTab()$/;"	f
+Creator._setCommonBufOptions	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._setCommonBufOptions()$/;"	f
+Creator._setupStatusline	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._setupStatusline()$/;"	f
+Creator._tabpagevar	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._tabpagevar(tabnr, var)$/;"	f
+Creator._uniq	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._uniq(list)$/;"	f
+Creator.createMirror	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.createMirror()$/;"	f
+Creator.createTabTree	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.createTabTree(name)$/;"	f
+Creator.createWindowTree	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.createWindowTree(dir)$/;"	f
+Creator.toggleTabTree	bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.toggleTabTree(dir)$/;"	f
+CtrlP	bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -n=? -com=dir CtrlP         cal ctrlp#init(0, { 'dir': <q-args> })$/;"	c
+CtrlPAug	bundle/ctrlp.vim/autoload/ctrlp.vim	/^	aug CtrlPAug$/;"	a
+CtrlPBookmarkDir	bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPBookmarkDir cal ctrlp#init(ctrlp#bookmarkdir#id())$/;"	c
+CtrlPBookmarkDirAdd	bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -n=? -com=dir CtrlPBookmarkDirAdd$/;"	c
+CtrlPBufTag	bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -n=? -com=buffer CtrlPBufTag$/;"	c
+CtrlPBufTagAll	bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPBufTagAll cal ctrlp#init(ctrlp#buffertag#cmd(1))$/;"	c
+CtrlPBuffer	bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPBuffer   cal ctrlp#init(1)$/;"	c
+CtrlPChange	bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -n=? -com=buffer CtrlPChange$/;"	c
+CtrlPChangeAll	bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPChangeAll   cal ctrlp#init(ctrlp#changes#cmd(1))$/;"	c
+CtrlPClearAllCaches	bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPClearAllCaches cal ctrlp#clra()$/;"	c
+CtrlPClearCache	bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPClearCache     cal ctrlp#clr()$/;"	c
+CtrlPCurFile	bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPCurFile cal ctrlp#init(0, { 'mode': 'c' })$/;"	c
+CtrlPCurWD	bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPCurWD   cal ctrlp#init(0, { 'mode': '' })$/;"	c
+CtrlPDir	bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -n=? -com=dir CtrlPDir$/;"	c
+CtrlPLastMode	bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -n=? CtrlPLastMode cal ctrlp#init(-1, { 'args': <q-args> })$/;"	c
+CtrlPLine	bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -n=? -com=buffer CtrlPLine$/;"	c
+CtrlPMRUFiles	bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -n=? -com=dir CtrlPMRUFiles cal ctrlp#init(2, { 'dir': <q-args> })$/;"	c
+CtrlPMixed	bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPMixed       cal ctrlp#init(ctrlp#mixed#id())$/;"	c
+CtrlPQuickfix	bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPQuickfix cal ctrlp#init(ctrlp#quickfix#id())$/;"	c
+CtrlPRTS	bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPRTS       cal ctrlp#init(ctrlp#rtscript#id())$/;"	c
+CtrlPRoot	bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPRoot    cal ctrlp#init(0, { 'mode': 'r' })$/;"	c
+CtrlPTag	bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPTag      cal ctrlp#init(ctrlp#tag#id())$/;"	c
+CtrlPUndo	bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPUndo      cal ctrlp#init(ctrlp#undo#id())$/;"	c
+DiffClose	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DiffClose() abort$/;"	f
+DifftoolSubcommand	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DifftoolSubcommand(line1, line2, range, bang, mods, options) abort$/;"	f
+Dir	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:Dir(...) abort$/;"	f
+DirCheck	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DirCheck(...) abort$/;"	f
+DirCommitFile	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DirCommitFile(path) abort$/;"	f
+DirRev	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DirRev(url) abort$/;"	f
+Dispatch	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:Dispatch(bang, options) abort$/;"	f
+Do	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:Do(action, visual) abort$/;"	f
+DoAutocmd	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DoAutocmd(cmd) abort$/;"	f
+DoAutocmdChanged	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DoAutocmdChanged(dir) abort$/;"	f
+DoStagePushHeader	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DoStagePushHeader(value) abort$/;"	f
+DoStageUnpushed	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DoStageUnpushed(record) abort$/;"	f
+DoStageUnpushedHeading	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DoStageUnpushedHeading(heading) abort$/;"	f
+DoStageUnstaged	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DoStageUnstaged(record) abort$/;"	f
+DoStageUnstagedHeading	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DoStageUnstagedHeading(heading) abort$/;"	f
+DoStageUntracked	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DoStageUntracked(record) abort$/;"	f
+DoStageUntrackedHeading	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DoStageUntrackedHeading(heading) abort$/;"	f
+DoToggleHeadHeader	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DoToggleHeadHeader(value) abort$/;"	f
+DoToggleHelpHeader	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DoToggleHelpHeader(value) abort$/;"	f
+DoTogglePushHeader	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DoTogglePushHeader(value) abort$/;"	f
+DoToggleStaged	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DoToggleStaged(record) abort$/;"	f
+DoToggleStagedHeading	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DoToggleStagedHeading(...) abort$/;"	f
+DoToggleUnpulled	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DoToggleUnpulled(record) abort$/;"	f
+DoToggleUnpulledHeading	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DoToggleUnpulledHeading(heading) abort$/;"	f
+DoToggleUnpushed	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DoToggleUnpushed(record) abort$/;"	f
+DoToggleUnpushedHeading	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DoToggleUnpushedHeading(heading) abort$/;"	f
+DoToggleUnstaged	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DoToggleUnstaged(record) abort$/;"	f
+DoToggleUnstagedHeading	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DoToggleUnstagedHeading(...) abort$/;"	f
+DoToggleUntracked	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DoToggleUntracked(record) abort$/;"	f
+DoToggleUntrackedHeading	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DoToggleUntrackedHeading(...) abort$/;"	f
+DoUnstageStaged	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DoUnstageStaged(record) abort$/;"	f
+DoUnstageStagedHeading	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DoUnstageStagedHeading(heading) abort$/;"	f
+DoUnstageUnpulled	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DoUnstageUnpulled(record) abort$/;"	f
+DoUnstageUnpulledHeading	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DoUnstageUnpulledHeading(heading) abort$/;"	f
+DoUnstageUnpushed	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DoUnstageUnpushed(record) abort$/;"	f
+DoUnstageUnstaged	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DoUnstageUnstaged(record) abort$/;"	f
+DotRelative	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:DotRelative(path, ...) abort$/;"	f
+EchoExec	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:EchoExec(...) abort$/;"	f
+Event.New	bundle/nerdtree/lib/nerdtree/event.vim	/^function! s:Event.New(nerdtree, subject, action, params) abort$/;"	f
+ExecPath	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:ExecPath() abort$/;"	f
+Expand	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:Expand(rev, ...) abort$/;"	f
+ExpandSplit	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:ExpandSplit(string, ...) abort$/;"	f
+ExpandVar	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:ExpandVar(other, var, flags, esc, ...) abort$/;"	f
+ExpandVarLegacy	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:ExpandVarLegacy(str) abort$/;"	f
+ExpireStatus	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:ExpireStatus(bufnr) abort$/;"	f
+FetchSubcommand	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:FetchSubcommand(line1, line2, range, bang, mods, options) abort$/;"	f
+FileIgnoreCase	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:FileIgnoreCase(for_completion) abort$/;"	f
+FilterEscape	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:FilterEscape(items, ...) abort$/;"	f
+FindParentVCSRoot	bundle/nerdtree/nerdtree_plugin/vcs.vim	/^function! s:FindParentVCSRoot(path)$/;"	f
+FlagSet.New	bundle/nerdtree/lib/nerdtree/flag_set.vim	/^function! s:FlagSet.New()$/;"	f
+FlagSet._flagsForScope	bundle/nerdtree/lib/nerdtree/flag_set.vim	/^function! s:FlagSet._flagsForScope(scope)$/;"	f
+FlagSet.addFlag	bundle/nerdtree/lib/nerdtree/flag_set.vim	/^function! s:FlagSet.addFlag(scope, flag)$/;"	f
+FlagSet.clearFlags	bundle/nerdtree/lib/nerdtree/flag_set.vim	/^function! s:FlagSet.clearFlags(scope)$/;"	f
+FlagSet.removeFlag	bundle/nerdtree/lib/nerdtree/flag_set.vim	/^function! s:FlagSet.removeFlag(scope, flag)$/;"	f
+FlagSet.renderToString	bundle/nerdtree/lib/nerdtree/flag_set.vim	/^function! s:FlagSet.renderToString()$/;"	f
+ForceUpdate	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:ForceUpdate()$/;"	f
+Format	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:Format(val) abort$/;"	f
+FormatFile	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:FormatFile(dict) abort$/;"	f
+FormatLog	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:FormatLog(dict) abort$/;"	f
+FormatRebase	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:FormatRebase(dict) abort$/;"	f
+FugitiveCommonDir	bundle/vim-fugitive/plugin/fugitive.vim	/^function! FugitiveCommonDir(...) abort$/;"	f
+FugitiveConfig	bundle/vim-fugitive/plugin/fugitive.vim	/^function! FugitiveConfig(...) abort$/;"	f
+FugitiveConfigGet	bundle/vim-fugitive/plugin/fugitive.vim	/^function! FugitiveConfigGet(name, ...) abort$/;"	f
+FugitiveConfigGetAll	bundle/vim-fugitive/plugin/fugitive.vim	/^function! FugitiveConfigGetAll(name, ...) abort$/;"	f
+FugitiveDetect	bundle/vim-fugitive/plugin/fugitive.vim	/^function! FugitiveDetect(path) abort$/;"	f
+FugitiveExtractGitDir	bundle/vim-fugitive/plugin/fugitive.vim	/^function! FugitiveExtractGitDir(path) abort$/;"	f
+FugitiveFind	bundle/vim-fugitive/plugin/fugitive.vim	/^function! FugitiveFind(...) abort$/;"	f
+FugitiveGitDir	bundle/vim-fugitive/plugin/fugitive.vim	/^function! FugitiveGitDir(...) abort$/;"	f
+FugitiveGitPath	bundle/vim-fugitive/plugin/fugitive.vim	/^function! FugitiveGitPath(path) abort$/;"	f
+FugitiveHead	bundle/vim-fugitive/plugin/fugitive.vim	/^function! FugitiveHead(...) abort$/;"	f
+FugitiveIsGitDir	bundle/vim-fugitive/plugin/fugitive.vim	/^function! FugitiveIsGitDir(path) abort$/;"	f
+FugitiveParse	bundle/vim-fugitive/plugin/fugitive.vim	/^function! FugitiveParse(...) abort$/;"	f
+FugitivePath	bundle/vim-fugitive/plugin/fugitive.vim	/^function! FugitivePath(...) abort$/;"	f
+FugitivePrepare	bundle/vim-fugitive/plugin/fugitive.vim	/^function! FugitivePrepare(...) abort$/;"	f
+FugitiveReal	bundle/vim-fugitive/plugin/fugitive.vim	/^function! FugitiveReal(...) abort$/;"	f
+FugitiveRemoteUrl	bundle/vim-fugitive/plugin/fugitive.vim	/^function! FugitiveRemoteUrl(...) abort$/;"	f
+FugitiveStatusline	bundle/vim-fugitive/plugin/fugitive.vim	/^function! FugitiveStatusline(...) abort$/;"	f
+FugitiveVimPath	bundle/vim-fugitive/plugin/fugitive.vim	/^function! FugitiveVimPath(path) abort$/;"	f
+FugitiveWorkTree	bundle/vim-fugitive/plugin/fugitive.vim	/^function! FugitiveWorkTree(...) abort$/;"	f
+G	bundle/vim-fugitive/plugin/fugitive.vim	/^command! -bang -nargs=? -range=-1 -complete=customlist,fugitive#Complete G   exe fugitive#Command(<line1>, <count>, +"<range>", <bang>0, "<mods>", <q-args>)$/;"	c
+GF	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:GF(mode) abort$/;"	f
+Generate	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:Generate(rev, ...) abort$/;"	f
+Git	bundle/vim-fugitive/plugin/fugitive.vim	/^command! -bang -nargs=? -range=-1 -complete=customlist,fugitive#Complete Git exe fugitive#Command(<line1>, <count>, +"<range>", <bang>0, "<mods>", <q-args>)$/;"	c
+GlobComplete	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:GlobComplete(lead, pattern) abort$/;"	f
+GlobPath	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:GlobPath(dirs, depth)$/;"	f
+GrepParseLine	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:GrepParseLine(prefix, name_only, dir, line) abort$/;"	f
+GrepSubcommand	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:GrepSubcommand(line1, line2, range, bang, mods, options) abort$/;"	f
+HasOpt	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:HasOpt(args, ...) abort$/;"	f
+IsConflicted	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:IsConflicted() abort$/;"	f
+JobOpts	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:JobOpts(cmd, env) abort$/;"	f
+KeyLoop	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:KeyLoop()$/;"	f
+KeyMap.Add	bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.Add(keymap)$/;"	f
+KeyMap.All	bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.All()$/;"	f
+KeyMap.BindAll	bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.BindAll()$/;"	f
+KeyMap.Compare	bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.Compare(keyMap1, keyMap2)$/;"	f
+KeyMap.Create	bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.Create(options)$/;"	f
+KeyMap.FindFor	bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.FindFor(key, scope)$/;"	f
+KeyMap.Invoke	bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.Invoke(key)$/;"	f
+KeyMap.Remove	bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.Remove(key, scope)$/;"	f
+KeyMap.bind	bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.bind()$/;"	f
+KeyMap.invoke	bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.invoke(...)$/;"	f
+Keywordprg	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:Keywordprg() abort$/;"	f
+LinesError	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:LinesError(...) abort$/;"	f
+LogFlushQueue	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:LogFlushQueue(state, dir) abort$/;"	f
+LogParse	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:LogParse(state, dir, line) abort$/;"	f
+Map	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:Map(mode, lhs, rhs, ...) abort$/;"	f
+Map	bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Map(mode, lhs, rhs, ...) abort$/;"	f
+MapMotion	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:MapMotion(lhs, rhs) abort$/;"	f
+MapNorms	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:MapNorms()$/;"	f
+MapSpecs	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:MapSpecs()$/;"	f
+MarkToOpen	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:MarkToOpen()$/;"	f
+MatchIt	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:MatchIt(items, pat, limit, exc)$/;"	f
+MatchedItems	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:MatchedItems(items, pat, limit)$/;"	f
+MenuController.New	bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController.New(menuItems)$/;"	f
+MenuController._allIndexesFor	bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._allIndexesFor(shortcut)$/;"	f
+MenuController._current	bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._current()$/;"	f
+MenuController._cursorDown	bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._cursorDown()$/;"	f
+MenuController._cursorUp	bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._cursorUp()$/;"	f
+MenuController._echoPrompt	bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._echoPrompt()$/;"	f
+MenuController._handleKeypress	bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._handleKeypress(key)$/;"	f
+MenuController._nextIndexFor	bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._nextIndexFor(shortcut)$/;"	f
+MenuController._restoreOptions	bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._restoreOptions()$/;"	f
+MenuController._saveOptions	bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._saveOptions()$/;"	f
+MenuController._setCmdheight	bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._setCmdheight()$/;"	f
+MenuController.isMinimal	bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController.isMinimal()$/;"	f
+MenuController.showMenu	bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController.showMenu()$/;"	f
+MenuItem.All	bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.All()$/;"	f
+MenuItem.AllEnabled	bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.AllEnabled()$/;"	f
+MenuItem.Create	bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.Create(options)$/;"	f
+MenuItem.CreateSeparator	bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.CreateSeparator(options)$/;"	f
+MenuItem.CreateSubmenu	bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.CreateSubmenu(options)$/;"	f
+MenuItem.enabled	bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.enabled()$/;"	f
+MenuItem.execute	bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.execute()$/;"	f
+MenuItem.isSeparator	bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.isSeparator()$/;"	f
+MenuItem.isSubmenu	bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.isSubmenu()$/;"	f
+MergeHead	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:MergeHead(...) abort$/;"	f
+MergeSubcommand	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:MergeSubcommand(line1, line2, range, bang, mods, options) abort$/;"	f
+MergetoolSubcommand	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:MergetoolSubcommand(line1, line2, range, bang, mods, options) abort$/;"	f
+MessageCfile	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:MessageCfile(...) abort$/;"	f
+Mods	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:Mods(mods, ...) abort$/;"	f
+Move	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:Move(force, rename, destination) abort$/;"	f
+NERDTree	bundle/nerdtree/plugin/NERD_tree.vim	/^augroup NERDTree$/;"	a
+NERDTree.AddPathFilter	bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.AddPathFilter(callback)$/;"	f
+NERDTree.Close	bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.Close()$/;"	f
+NERDTree.CloseIfQuitOnOpen	bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.CloseIfQuitOnOpen()$/;"	f
+NERDTree.CursorToBookmarkTable	bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.CursorToBookmarkTable()$/;"	f
+NERDTree.CursorToTreeWin	bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.CursorToTreeWin(...)$/;"	f
+NERDTree.ExistsForBuf	bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.ExistsForBuf()$/;"	f
+NERDTree.ExistsForTab	bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.ExistsForTab()$/;"	f
+NERDTree.ForCurrentBuf	bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.ForCurrentBuf()$/;"	f
+NERDTree.ForCurrentTab	bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.ForCurrentTab()$/;"	f
+NERDTree.GetWinNum	bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.GetWinNum()$/;"	f
+NERDTree.IsOpen	bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.IsOpen()$/;"	f
+NERDTree.MustBeOpen	bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.MustBeOpen()$/;"	f
+NERDTree.New	bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.New(path, type)$/;"	f
+NERDTree.PathFilters	bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.PathFilters()$/;"	f
+NERDTree.changeRoot	bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.changeRoot(node)$/;"	f
+NERDTree.getRoot	bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.getRoot()$/;"	f
+NERDTree.isTabTree	bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.isTabTree()$/;"	f
+NERDTree.isWinTree	bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.isWinTree()$/;"	f
+NERDTree.previousBuf	bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.previousBuf()$/;"	f
+NERDTree.render	bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.render()$/;"	f
+NERDTree.setPreviousBuf	bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.setPreviousBuf(bnum)$/;"	f
+NERDTreeAddKeyMap	bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddKeyMap(options)$/;"	f
+NERDTreeAddMenuItem	bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddMenuItem(options)$/;"	f
+NERDTreeAddMenuSeparator	bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddMenuSeparator(...)$/;"	f
+NERDTreeAddNode	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeAddNode()$/;"	f
+NERDTreeAddPathFilter	bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddPathFilter(callback)$/;"	f
+NERDTreeAddSubmenu	bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddSubmenu(options)$/;"	f
+NERDTreeCWD	bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeCWD()$/;"	f
+NERDTreeChDirOnTabSwitch	bundle/nerdtree/plugin/NERD_tree.vim	/^    augroup NERDTreeChDirOnTabSwitch$/;"	a
+NERDTreeCopyNode	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeCopyNode()$/;"	f
+NERDTreeCopyPath	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeCopyPath()$/;"	f
+NERDTreeDeleteNode	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeDeleteNode()$/;"	f
+NERDTreeExecFile	bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim	/^function! NERDTreeExecFile()$/;"	f
+NERDTreeExecFileActive	bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim	/^function! NERDTreeExecFileActive()$/;"	f
+NERDTreeExecuteFile	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeExecuteFile()$/;"	f
+NERDTreeExecuteFileLinux	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeExecuteFileLinux()$/;"	f
+NERDTreeExecuteFileWindows	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeExecuteFileWindows()$/;"	f
+NERDTreeFocus	bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeFocus()$/;"	f
+NERDTreeHijackNetrw	bundle/nerdtree/plugin/NERD_tree.vim	/^    augroup NERDTreeHijackNetrw$/;"	a
+NERDTreeHijackNetrw	config.vim	/^let NERDTreeHijackNetrw = 0$/;"	v
+NERDTreeListNode	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeListNode()$/;"	f
+NERDTreeListNodeWin32	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeListNodeWin32()$/;"	f
+NERDTreeMoveNode	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeMoveNode()$/;"	f
+NERDTreeQuickLook	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeQuickLook()$/;"	f
+NERDTreeRender	bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeRender()$/;"	f
+NERDTreeRevealFileLinux	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeRevealFileLinux()$/;"	f
+NERDTreeRevealInFinder	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeRevealInFinder()$/;"	f
+NERDTreeToggleVCS	bundle/nerdtree/nerdtree_plugin/vcs.vim	/^command! -n=? -complete=dir -bar NERDTreeToggleVCS :call <SID>ToggleTabTreeVCS('<args>')$/;"	c
+NERDTreeVCS	bundle/nerdtree/nerdtree_plugin/vcs.vim	/^command! -n=? -complete=dir -bar NERDTreeVCS :call <SID>CreateTabTreeVCS('<args>')$/;"	c
+NavigateUp	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:NavigateUp(count) abort$/;"	f
+NextExpandedHunk	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:NextExpandedHunk(count) abort$/;"	f
+NextFile	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:NextFile(count) abort$/;"	f
+NextHunk	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:NextHunk(count) abort$/;"	f
+NextItem	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:NextItem(count) abort$/;"	f
+NextSection	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:NextSection(count) abort$/;"	f
+NextSectionEnd	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:NextSectionEnd(count) abort$/;"	f
+Notifier.AddListener	bundle/nerdtree/lib/nerdtree/notifier.vim	/^function! s:Notifier.AddListener(event, funcname)$/;"	f
+Notifier.GetListenersForEvent	bundle/nerdtree/lib/nerdtree/notifier.vim	/^function! s:Notifier.GetListenersForEvent(name)$/;"	f
+Notifier.GetListenersMap	bundle/nerdtree/lib/nerdtree/notifier.vim	/^function! s:Notifier.GetListenersMap()$/;"	f
+Notifier.NotifyListeners	bundle/nerdtree/lib/nerdtree/notifier.vim	/^function! s:Notifier.NotifyListeners(event, path, nerdtree, params)$/;"	f
+NullError	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:NullError(...) abort$/;"	f
+Open	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:Open()$/;"	f
+OpenExec	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:OpenExec(cmd, mods, env, args, ...) abort$/;"	f
+OpenMulti	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:OpenMulti(...)$/;"	f
+OpenNoMarks	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:OpenNoMarks(md, line)$/;"	f
+OpenParse	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:OpenParse(args, wants_cmd) abort$/;"	f
+Opener.New	bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener.New(path, opts)$/;"	f
+Opener._bufInWindows	bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._bufInWindows(bnum)$/;"	f
+Opener._checkToCloseTree	bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._checkToCloseTree(newtab)$/;"	f
+Opener._firstUsableWindow	bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._firstUsableWindow()$/;"	f
+Opener._gotoTargetWin	bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._gotoTargetWin()$/;"	f
+Opener._isWindowUsable	bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._isWindowUsable(winnumber)$/;"	f
+Opener._newSplit	bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._newSplit()$/;"	f
+Opener._newVSplit	bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._newVSplit()$/;"	f
+Opener._openDirectory	bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._openDirectory(node)$/;"	f
+Opener._openFile	bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._openFile()$/;"	f
+Opener._previousWindow	bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._previousWindow()$/;"	f
+Opener._restoreCursorPos	bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._restoreCursorPos()$/;"	f
+Opener._reuseWindow	bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._reuseWindow()$/;"	f
+Opener._saveCursorPos	bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._saveCursorPos()$/;"	f
+Opener.open	bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener.open(target)$/;"	f
+Owner	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:Owner(path, ...) abort$/;"	f
+PatchSearchExpr	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:PatchSearchExpr(reverse) abort$/;"	f
+Path.AbsolutePathFor	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.AbsolutePathFor(pathStr)$/;"	f
+Path.CopyingSupported	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.CopyingSupported()$/;"	f
+Path.Create	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.Create(fullpath)$/;"	f
+Path.JoinPathStrings	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.JoinPathStrings(...)$/;"	f
+Path.New	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.New(pathStr)$/;"	f
+Path.Resolve	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.Resolve(path)$/;"	f
+Path.Slash	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.Slash()$/;"	f
+Path.WinToUnixPath	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.WinToUnixPath(pathstr)$/;"	f
+Path._escChars	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path._escChars()$/;"	f
+Path._ignorePatternMatches	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path._ignorePatternMatches(pattern)$/;"	f
+Path._splitChunks	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path._splitChunks(path)$/;"	f
+Path._str	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path._str()$/;"	f
+Path._strForCd	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path._strForCd()$/;"	f
+Path._strForEdit	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path._strForEdit()$/;"	f
+Path._strForGlob	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path._strForGlob()$/;"	f
+Path._strForUI	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path._strForUI()$/;"	f
+Path.addDelimiter	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.addDelimiter(line)$/;"	f
+Path.bookmarkNames	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.bookmarkNames()$/;"	f
+Path.cacheDisplayString	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.cacheDisplayString() abort$/;"	f
+Path.changeToDir	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.changeToDir()$/;"	f
+Path.compareTo	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.compareTo(path)$/;"	f
+Path.copy	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.copy(dest)$/;"	f
+Path.copyingWillOverwrite	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.copyingWillOverwrite(dest)$/;"	f
+Path.createParentDirectories	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.createParentDirectories(path)$/;"	f
+Path.delete	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.delete()$/;"	f
+Path.displayString	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.displayString()$/;"	f
+Path.edit	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.edit()$/;"	f
+Path.equals	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.equals(path)$/;"	f
+Path.exists	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.exists()$/;"	f
+Path.extractDriveLetter	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.extractDriveLetter(fullpath)$/;"	f
+Path.getDir	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.getDir()$/;"	f
+Path.getLastPathComponent	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.getLastPathComponent(dirSlash)$/;"	f
+Path.getParent	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.getParent()$/;"	f
+Path.getSortKey	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.getSortKey()$/;"	f
+Path.getSortOrderIndex	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.getSortOrderIndex()$/;"	f
+Path.ignore	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.ignore(nerdtree)$/;"	f
+Path.isAncestor	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.isAncestor(child)$/;"	f
+Path.isHiddenUnder	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.isHiddenUnder(path)$/;"	f
+Path.isUnder	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.isUnder(parent)$/;"	f
+Path.isUnixHiddenFile	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.isUnixHiddenFile()$/;"	f
+Path.isUnixHiddenPath	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.isUnixHiddenPath()$/;"	f
+Path.readInfoFromDisk	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.readInfoFromDisk(fullpath)$/;"	f
+Path.refresh	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.refresh(nerdtree)$/;"	f
+Path.refreshFlags	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.refreshFlags(nerdtree)$/;"	f
+Path.rename	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.rename(newPath)$/;"	f
+Path.str	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.str(...)$/;"	f
+Path.strTrunk	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.strTrunk()$/;"	f
+Path.tabnr	bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.tabnr()$/;"	f
+PathInfo	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:PathInfo(url) abort$/;"	f
+Plugin	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=+  -bar   Plugin$/;"	c
+PluginClean	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=? -bang   PluginClean$/;"	c
+PluginDocs	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=0         PluginDocs$/;"	c
+PluginInstall	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=* -bang -complete=custom,vundle#scripts#complete PluginInstall$/;"	c
+PluginList	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=0 -bang PluginList$/;"	c
+PluginSearch	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=? -bang -complete=custom,vundle#scripts#complete PluginSearch$/;"	c
+PluginUpdate	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=* -complete=custom,vundle#scripts#complete PluginUpdate PluginInstall! <args>$/;"	c
+PreparePathArgs	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:PreparePathArgs(cmd, dir, literal) abort$/;"	f
+PreviousFile	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:PreviousFile(count) abort$/;"	f
+PreviousHunk	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:PreviousHunk(count) abort$/;"	f
+PreviousItem	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:PreviousItem(count) abort$/;"	f
+PreviousSection	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:PreviousSection(count) abort$/;"	f
+PreviousSectionEnd	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:PreviousSectionEnd(count) abort$/;"	f
+ProjectionistDetect	bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:ProjectionistDetect() abort$/;"	f
+PrtAdd	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtAdd(char)$/;"	f
+PrtBS	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtBS()$/;"	f
+PrtClear	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtClear()$/;"	f
+PrtClearCache	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtClearCache()$/;"	f
+PrtCurEnd	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtCurEnd()$/;"	f
+PrtCurLeft	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtCurLeft()$/;"	f
+PrtCurRight	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtCurRight()$/;"	f
+PrtCurStart	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtCurStart()$/;"	f
+PrtDelete	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtDelete()$/;"	f
+PrtDeleteEnt	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtDeleteEnt()$/;"	f
+PrtDeleteMRU	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtDeleteMRU()$/;"	f
+PrtDeleteWord	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtDeleteWord()$/;"	f
+PrtExit	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtExit()$/;"	f
+PrtExpandDir	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtExpandDir()$/;"	f
+PrtFocusMap	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtFocusMap(char)$/;"	f
+PrtHistory	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtHistory(...)$/;"	f
+PrtInsert	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtInsert(...)$/;"	f
+PrtSelectJump	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtSelectJump(char)$/;"	f
+PrtSelectMove	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtSelectMove(dir)$/;"	f
+PrtSwitcher	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtSwitcher()$/;"	f
+PushSubcommand	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:PushSubcommand(line1, line2, range, bang, mods, options) abort$/;"	f
+QueryLog	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:QueryLog(refspec) abort$/;"	f
+QuickfixCreate	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:QuickfixCreate(nr, opts) abort$/;"	f
+QuickfixGet	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:QuickfixGet(nr, ...) abort$/;"	f
+QuickfixSet	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:QuickfixSet(nr, ...) abort$/;"	f
+QuickfixStream	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:QuickfixStream(nr, event, title, cmd, first, callback, ...) abort$/;"	f
+ReadExec	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:ReadExec(line1, count, range, mods, env, args, options) abort$/;"	f
+ReadPrepare	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:ReadPrepare(line1, count, range, mods) abort$/;"	f
+RebaseArgument	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:RebaseArgument() abort$/;"	f
+RebaseSubcommand	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:RebaseSubcommand(line1, line2, range, bang, mods, options) abort$/;"	f
+Relative	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:Relative(...) abort$/;"	f
+ReloadStatus	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:ReloadStatus(...) abort$/;"	f
+ReloadStatusBuffer	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:ReloadStatusBuffer(...) abort$/;"	f
+ReloadTabStatus	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:ReloadTabStatus(...) abort$/;"	f
+ReloadWinStatus	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:ReloadWinStatus(...) abort$/;"	f
+Remote	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:Remote(dir) abort$/;"	f
+Remove	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:Remove(after, force) abort$/;"	f
+Render	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:Render(lines, pat)$/;"	f
+ReplaceCmd	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:ReplaceCmd(cmd) abort$/;"	f
+Reset	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:Reset(args)$/;"	f
+Resolve	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:Resolve(path) abort$/;"	f
+RevertSubcommand	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:RevertSubcommand(line1, line2, range, bang, mods, options) abort$/;"	f
+RunBufDelete	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:RunBufDelete(bufnr) abort$/;"	f
+RunEdit	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:RunEdit(state, job) abort$/;"	f
+RunJobs	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:RunJobs() abort$/;"	f
+RunReceive	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:RunReceive(state, job, data, ...) abort$/;"	f
+RunSend	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:RunSend(job, str) abort$/;"	f
+RunWait	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:RunWait(state, job) abort$/;"	f
+SID	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:SID() abort$/;"	f
+Selection	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:Selection(arg1, ...) abort$/;"	f
+SetDefTxt	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:SetDefTxt()$/;"	f
+SetWD	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:SetWD(args)$/;"	f
+Slash	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:Slash(path) abort$/;"	f
+Slash	bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Slash(path) abort$/;"	f
+SpecInputs	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:SpecInputs(str)$/;"	f
+SplitExpand	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:SplitExpand(string, ...) abort$/;"	f
+SplitExpandChain	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:SplitExpandChain(string, ...) abort$/;"	f
+SplitPattern	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:SplitPattern(str)$/;"	f
+SquashArgument	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:SquashArgument(...) abort$/;"	f
+StageApply	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:StageApply(info, reverse, extra) abort$/;"	f
+StageArgs	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:StageArgs(visual) abort$/;"	f
+StageDelete	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:StageDelete(lnum1, lnum2, count) abort$/;"	f
+StageDiff	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:StageDiff(diff) abort$/;"	f
+StageDiffEdit	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:StageDiffEdit() abort$/;"	f
+StageIgnore	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:StageIgnore(lnum1, lnum2, count) abort$/;"	f
+StageInfo	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:StageInfo(...) abort$/;"	f
+StageInline	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:StageInline(mode, ...) abort$/;"	f
+StageJump	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:StageJump(offset, section, ...) abort$/;"	f
+StagePatch	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:StagePatch(lnum1,lnum2) abort$/;"	f
+StageReveal	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:StageReveal() abort$/;"	f
+StageSeek	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:StageSeek(info, fallback) abort$/;"	f
+StatusCfile	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:StatusCfile(...) abort$/;"	f
+StatusCommand	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:StatusCommand(line1, line2, range, count, bang, mods, reg, arg, args, ...) abort$/;"	f
+Subcommands	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:Subcommands() abort$/;"	f
+SystemError	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:SystemError(cmd, ...) abort$/;"	f
+TempCmd	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:TempCmd(out, cmd) abort$/;"	f
+TempReadPost	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:TempReadPost(file) abort$/;"	f
+TempReadPre	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:TempReadPre(file) abort$/;"	f
+TempScript	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:TempScript(...) abort$/;"	f
+TempState	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:TempState(...) abort$/;"	f
+ToggleByFname	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:ToggleByFname()$/;"	f
+ToggleFocus	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:ToggleFocus()$/;"	f
+ToggleKeyLoop	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:ToggleKeyLoop()$/;"	f
+ToggleMRURelative	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:ToggleMRURelative()$/;"	f
+ToggleRegex	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:ToggleRegex()$/;"	f
+ToggleTabTreeVCS	bundle/nerdtree/nerdtree_plugin/vcs.vim	/^function! s:ToggleTabTreeVCS(name)$/;"	f
+ToggleType	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:ToggleType(dir)$/;"	f
+ToolItems	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:ToolItems(state, from, to, offsets, text, ...) abort$/;"	f
+ToolParse	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:ToolParse(state, line) abort$/;"	f
+ToolStream	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:ToolStream(line1, line2, range, bang, mods, options, args, state) abort$/;"	f
+ToolToFrom	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:ToolToFrom(str) abort$/;"	f
+Tree	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:Tree(...) abort$/;"	f
+Tree	bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Tree(path) abort$/;"	f
+TreeChomp	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:TreeChomp(...) abort$/;"	f
+TreeDirNode.AbsoluteTreeRoot	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.AbsoluteTreeRoot()$/;"	f
+TreeDirNode.GetSelected	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.GetSelected()$/;"	f
+TreeDirNode.New	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.New(path, nerdtree)$/;"	f
+TreeDirNode._glob	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode._glob(pattern, all)$/;"	f
+TreeDirNode._initChildren	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode._initChildren(silent)$/;"	f
+TreeDirNode._openInNewTab	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode._openInNewTab()$/;"	f
+TreeDirNode.activate	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.activate(...)$/;"	f
+TreeDirNode.addChild	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.addChild(treenode, inOrder)$/;"	f
+TreeDirNode.close	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.close()$/;"	f
+TreeDirNode.closeChildren	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.closeChildren()$/;"	f
+TreeDirNode.createChild	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.createChild(path, inOrder)$/;"	f
+TreeDirNode.displayString	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.displayString()$/;"	f
+TreeDirNode.findNode	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.findNode(path)$/;"	f
+TreeDirNode.getCascade	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getCascade()$/;"	f
+TreeDirNode.getCascadeRoot	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getCascadeRoot()$/;"	f
+TreeDirNode.getChild	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getChild(path)$/;"	f
+TreeDirNode.getChildByIndex	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getChildByIndex(indx, visible)$/;"	f
+TreeDirNode.getChildCount	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getChildCount()$/;"	f
+TreeDirNode.getChildIndex	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getChildIndex(path)$/;"	f
+TreeDirNode.getDirChildren	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getDirChildren()$/;"	f
+TreeDirNode.getVisibleChildCount	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getVisibleChildCount()$/;"	f
+TreeDirNode.getVisibleChildren	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getVisibleChildren()$/;"	f
+TreeDirNode.hasVisibleChildren	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.hasVisibleChildren()$/;"	f
+TreeDirNode.isCascadable	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.isCascadable()$/;"	f
+TreeDirNode.open	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.open(...)$/;"	f
+TreeDirNode.openAlong	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.openAlong(...)$/;"	f
+TreeDirNode.openExplorer	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.openExplorer()$/;"	f
+TreeDirNode.openInNewTab	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.openInNewTab(options)$/;"	f
+TreeDirNode.openRecursively	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.openRecursively()$/;"	f
+TreeDirNode.refresh	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.refresh()$/;"	f
+TreeDirNode.refreshDirFlags	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.refreshDirFlags()$/;"	f
+TreeDirNode.refreshFlags	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.refreshFlags()$/;"	f
+TreeDirNode.removeChild	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.removeChild(treenode)$/;"	f
+TreeDirNode.reveal	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.reveal(path, ...)$/;"	f
+TreeDirNode.sortChildren	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.sortChildren()$/;"	f
+TreeDirNode.toggleOpen	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.toggleOpen(...)$/;"	f
+TreeDirNode.transplantChild	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.transplantChild(newNode)$/;"	f
+TreeFileNode.GetRootForTab	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.GetRootForTab()$/;"	f
+TreeFileNode.GetSelected	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.GetSelected()$/;"	f
+TreeFileNode.New	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.New(path, nerdtree)$/;"	f
+TreeFileNode._renderToString	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode._renderToString(depth, drawText)$/;"	f
+TreeFileNode.activate	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.activate(...)$/;"	f
+TreeFileNode.bookmark	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.bookmark(name)$/;"	f
+TreeFileNode.cacheParent	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.cacheParent()$/;"	f
+TreeFileNode.clearBookmarks	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.clearBookmarks()$/;"	f
+TreeFileNode.copy	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.copy(dest)$/;"	f
+TreeFileNode.delete	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.delete()$/;"	f
+TreeFileNode.displayString	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.displayString()$/;"	f
+TreeFileNode.equals	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.equals(treenode)$/;"	f
+TreeFileNode.findNode	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.findNode(path)$/;"	f
+TreeFileNode.findSibling	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.findSibling(direction)$/;"	f
+TreeFileNode.getNerdtree	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.getNerdtree()$/;"	f
+TreeFileNode.isRoot	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.isRoot()$/;"	f
+TreeFileNode.isVisible	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.isVisible()$/;"	f
+TreeFileNode.open	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.open(...)$/;"	f
+TreeFileNode.openExplorer	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.openExplorer()$/;"	f
+TreeFileNode.openInNewTab	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.openInNewTab(options)$/;"	f
+TreeFileNode.openSplit	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.openSplit()$/;"	f
+TreeFileNode.openVSplit	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.openVSplit()$/;"	f
+TreeFileNode.putCursorHere	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.putCursorHere(isJump, recurseUpward)$/;"	f
+TreeFileNode.refresh	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.refresh()$/;"	f
+TreeFileNode.refreshFlags	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.refreshFlags()$/;"	f
+TreeFileNode.rename	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.rename(newName)$/;"	f
+TreeFileNode.renderToString	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.renderToString()$/;"	f
+TreeInfo	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:TreeInfo(dir, commit) abort$/;"	f
+UI.IndentWid	bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.IndentWid()$/;"	f
+UI.MarkupReg	bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.MarkupReg()$/;"	f
+UI.New	bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.New(nerdtree)$/;"	f
+UI.UpDirLine	bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.UpDirLine()$/;"	f
+UI._dumpHelp	bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI._dumpHelp()$/;"	f
+UI._indentLevelFor	bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI._indentLevelFor(line)$/;"	f
+UI._renderBookmarks	bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI._renderBookmarks()$/;"	f
+UI._stripMarkup	bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI._stripMarkup(line)$/;"	f
+UI.centerView	bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.centerView()$/;"	f
+UI.getLineNum	bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.getLineNum(node)$/;"	f
+UI.getPath	bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.getPath(ln)$/;"	f
+UI.getRootLineNum	bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.getRootLineNum()$/;"	f
+UI.getShowBookmarks	bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.getShowBookmarks()$/;"	f
+UI.getShowFiles	bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.getShowFiles()$/;"	f
+UI.getShowHelp	bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.getShowHelp()$/;"	f
+UI.getShowHidden	bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.getShowHidden()$/;"	f
+UI.isIgnoreFilterEnabled	bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.isIgnoreFilterEnabled()$/;"	f
+UI.isMinimal	bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.isMinimal()$/;"	f
+UI.render	bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.render()$/;"	f
+UI.renderViewSavingPosition	bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.renderViewSavingPosition()$/;"	f
+UI.restoreScreenState	bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.restoreScreenState()$/;"	f
+UI.saveScreenState	bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.saveScreenState()$/;"	f
+UI.setShowHidden	bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.setShowHidden(val)$/;"	f
+UI.toggleHelp	bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.toggleHelp()$/;"	f
+UI.toggleIgnoreFilter	bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.toggleIgnoreFilter()$/;"	f
+UI.toggleShowBookmarks	bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.toggleShowBookmarks()$/;"	f
+UI.toggleShowFiles	bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.toggleShowFiles()$/;"	f
+UI.toggleShowHidden	bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.toggleShowHidden()$/;"	f
+UI.toggleZoom	bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.toggleZoom()$/;"	f
+Uniq	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:Uniq(list) abort$/;"	f
+Update	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:Update(str)$/;"	f
+UpdateIndex	bundle/vim-fugitive/autoload/fugitive.vim	/^function s:UpdateIndex(dir, info) abort$/;"	f
+UsableWin	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:UsableWin(nr) abort$/;"	f
+UserCmd	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:UserCmd(lscmd)$/;"	f
+UserCommand	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:UserCommand(...) abort$/;"	f
+UserCommandList	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:UserCommandList(...) abort$/;"	f
+VundleClean	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=? -bang                                          VundleClean   PluginClean<bang>$/;"	c
+VundleDocs	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=0                                                VundleDocs    PluginDocs$/;"	c
+VundleInstall	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=? -bang -complete=custom,vundle#scripts#complete VundleInstall PluginInstall<bang> <args>$/;"	c
+VundleSearch	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=? -bang -complete=custom,vundle#scripts#complete VundleSearch  PluginSearch<bang> <args>$/;"	c
+VundleUpdate	bundle/Vundle.vim/autoload/vundle.vim	/^com!                                                         VundleUpdate  PluginInstall!$/;"	c
+VundleUpdate	bundle/Vundle.vim/autoload/vundle.vim	/^com! -nargs=*       -complete=custom,vundle#scripts#complete VundleUpdate  PluginInstall! <args>$/;"	c
+WinShellEsc	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:WinShellEsc(arg) abort$/;"	f
+activateAll	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:activateAll() abort$/;"	f
+activateBookmark	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:activateBookmark(bm) abort$/;"	f
+activateDirNode	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:activateDirNode(directoryNode, ...) abort$/;"	f
+activateFileNode	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:activateFileNode(node) abort$/;"	f
+add_methods	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:add_methods(namespace, method_names) abort$/;"	f
+addtomrufs	bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! s:addtomrufs(fname)$/;"	f
+argmaps	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:argmaps(md, i)$/;"	f
+at	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:at(str)$/;"	f
+autocmds	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:autocmds()$/;"	f
+autosourcing	config.vim	/^augroup autosourcing$/;"	a
+b:current_syntax	bundle/vim-fugitive/syntax/fugitive.vim	/^let b:current_syntax = "fugitive"$/;"	v
+b:current_syntax	bundle/vim-fugitive/syntax/fugitiveblame.vim	/^let b:current_syntax = "fugitiveblame"$/;"	v
+b:did_ftplugin	bundle/Vundle.vim/ftplugin/vundlelog.vim	/^let b:did_ftplugin = 1$/;"	v
+buffer_repo	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:buffer_repo() dict abort$/;"	f
+buffer_type	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:buffer_type(...) dict abort$/;"	f
+buffunc	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:buffunc(e)$/;"	f
+buftab	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:buftab(bufnr, md)$/;"	f
+bufwins	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:bufwins(bufnr)$/;"	f
+buildpat	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:buildpat(lst)$/;"	f
+bundle.is_pinned	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! s:bundle.is_pinned()$/;"	f
+bundle.path	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! s:bundle.path()$/;"	f
+byfname	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:byfname()$/;"	f
+cachefile	bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:cachefile()$/;"	f
+can_diffoff	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:can_diffoff(buf) abort$/;"	f
+cfile	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:cfile() abort$/;"	f
+chCwd	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:chCwd(node) abort$/;"	f
+chRoot	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:chRoot(node) abort$/;"	f
+changelist	bundle/ctrlp.vim/autoload/ctrlp/changes.vim	/^fu! s:changelist(bufnr)$/;"	f
+check_bundle_name	bundle/Vundle.vim/autoload/vundle/config.vim	/^funct! s:check_bundle_name(bundle)$/;"	f
+checkbuf	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:checkbuf()$/;"	f
+chknearby	bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! s:chknearby(pat)$/;"	f
+choices	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:choices(str, choices, func, args)$/;"	f
+chop	bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! s:chop(mrufs)$/;"	f
+closeChildren	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:closeChildren(node) abort$/;"	f
+closeCurrentDir	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:closeCurrentDir(node) abort$/;"	f
+closeTreeWindow	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:closeTreeWindow() abort$/;"	f
+comparent	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:comparent(...)$/;"	f
+compfnlen	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:compfnlen(...)$/;"	f
+compmatlen	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:compmatlen(...)$/;"	f
+compmreb	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:compmreb(...)$/;"	f
+compmref	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:compmref(...)$/;"	f
+comptime	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:comptime(...)$/;"	f
+compval	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:compval(...)$/;"	f
+compval	bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! s:compval(...)$/;"	f
+cpath	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:cpath(path, ...) abort$/;"	f
+create_changelog	bundle/Vundle.vim/autoload/vundle/scripts.vim	/^func! s:create_changelog() abort$/;"	f
+ctrlp#acceptfile	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#acceptfile(...)$/;"	f
+ctrlp#bookmarkdir#accept	bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! ctrlp#bookmarkdir#accept(mode, str)$/;"	f
+ctrlp#bookmarkdir#add	bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! ctrlp#bookmarkdir#add(dir, ...)$/;"	f
+ctrlp#bookmarkdir#id	bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! ctrlp#bookmarkdir#id()$/;"	f
+ctrlp#bookmarkdir#init	bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! ctrlp#bookmarkdir#init()$/;"	f
+ctrlp#bookmarkdir#remove	bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! ctrlp#bookmarkdir#remove(entries)$/;"	f
+ctrlp#buffers	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#buffers(...)$/;"	f
+ctrlp#buffertag#accept	bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! ctrlp#buffertag#accept(mode, str)$/;"	f
+ctrlp#buffertag#cmd	bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! ctrlp#buffertag#cmd(mode, ...)$/;"	f
+ctrlp#buffertag#exit	bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! ctrlp#buffertag#exit()$/;"	f
+ctrlp#buffertag#init	bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! ctrlp#buffertag#init(fname)$/;"	f
+ctrlp#buffertag#opts	bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! ctrlp#buffertag#opts()$/;"	f
+ctrlp#call	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#call(func, ...)$/;"	f
+ctrlp#changes#accept	bundle/ctrlp.vim/autoload/ctrlp/changes.vim	/^fu! ctrlp#changes#accept(mode, str)$/;"	f
+ctrlp#changes#cmd	bundle/ctrlp.vim/autoload/ctrlp/changes.vim	/^fu! ctrlp#changes#cmd(mode, ...)$/;"	f
+ctrlp#changes#exit	bundle/ctrlp.vim/autoload/ctrlp/changes.vim	/^fu! ctrlp#changes#exit()$/;"	f
+ctrlp#changes#init	bundle/ctrlp.vim/autoload/ctrlp/changes.vim	/^fu! ctrlp#changes#init(original_bufnr, bufnr)$/;"	f
+ctrlp#clr	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#clr(...)$/;"	f
+ctrlp#clra	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#clra()$/;"	f
+ctrlp#complen	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#complen(...)$/;"	f
+ctrlp#dir#accept	bundle/ctrlp.vim/autoload/ctrlp/dir.vim	/^fu! ctrlp#dir#accept(mode, str)$/;"	f
+ctrlp#dir#id	bundle/ctrlp.vim/autoload/ctrlp/dir.vim	/^fu! ctrlp#dir#id()$/;"	f
+ctrlp#dir#init	bundle/ctrlp.vim/autoload/ctrlp/dir.vim	/^fu! ctrlp#dir#init(...)$/;"	f
+ctrlp#dirnfile	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#dirnfile(entries)$/;"	f
+ctrlp#exit	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#exit()$/;"	f
+ctrlp#files	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#files()$/;"	f
+ctrlp#getcline	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#getcline()$/;"	f
+ctrlp#getmarkedlist	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#getmarkedlist()$/;"	f
+ctrlp#getvar	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#getvar(var)$/;"	f
+ctrlp#hicheck	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#hicheck(grp, defgrp)$/;"	f
+ctrlp#igncwd	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#igncwd(cwd)$/;"	f
+ctrlp#init	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#init(type, ...)$/;"	f
+ctrlp#j2l	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#j2l(nr)$/;"	f
+ctrlp#line#accept	bundle/ctrlp.vim/autoload/ctrlp/line.vim	/^fu! ctrlp#line#accept(mode, str)$/;"	f
+ctrlp#line#cmd	bundle/ctrlp.vim/autoload/ctrlp/line.vim	/^fu! ctrlp#line#cmd(mode, ...)$/;"	f
+ctrlp#line#init	bundle/ctrlp.vim/autoload/ctrlp/line.vim	/^fu! ctrlp#line#init(bufnr)$/;"	f
+ctrlp#mixed#id	bundle/ctrlp.vim/autoload/ctrlp/mixed.vim	/^fu! ctrlp#mixed#id()$/;"	f
+ctrlp#mixed#init	bundle/ctrlp.vim/autoload/ctrlp/mixed.vim	/^fu! ctrlp#mixed#init(clim)$/;"	f
+ctrlp#modfilecond	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#modfilecond(w)$/;"	f
+ctrlp#mrufiles#add	bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! ctrlp#mrufiles#add(fn)$/;"	f
+ctrlp#mrufiles#bufs	bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! ctrlp#mrufiles#bufs()$/;"	f
+ctrlp#mrufiles#cachefile	bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! ctrlp#mrufiles#cachefile()$/;"	f
+ctrlp#mrufiles#init	bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! ctrlp#mrufiles#init()$/;"	f
+ctrlp#mrufiles#list	bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! ctrlp#mrufiles#list(...)$/;"	f
+ctrlp#mrufiles#opts	bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! ctrlp#mrufiles#opts()$/;"	f
+ctrlp#mrufiles#refresh	bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! ctrlp#mrufiles#refresh(...)$/;"	f
+ctrlp#mrufiles#remove	bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! ctrlp#mrufiles#remove(files)$/;"	f
+ctrlp#mrufiles#tgrel	bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! ctrlp#mrufiles#tgrel()$/;"	f
+ctrlp#normcmd	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#normcmd(cmd, ...)$/;"	f
+ctrlp#nosy	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#nosy()$/;"	f
+ctrlp#progress	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#progress(enum, ...)$/;"	f
+ctrlp#prtclear	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#prtclear()$/;"	f
+ctrlp#quickfix#accept	bundle/ctrlp.vim/autoload/ctrlp/quickfix.vim	/^fu! ctrlp#quickfix#accept(mode, str)$/;"	f
+ctrlp#quickfix#id	bundle/ctrlp.vim/autoload/ctrlp/quickfix.vim	/^fu! ctrlp#quickfix#id()$/;"	f
+ctrlp#quickfix#init	bundle/ctrlp.vim/autoload/ctrlp/quickfix.vim	/^fu! ctrlp#quickfix#init()$/;"	f
+ctrlp#recordhist	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#recordhist()$/;"	f
+ctrlp#rmbasedir	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#rmbasedir(items)$/;"	f
+ctrlp#rtscript#id	bundle/ctrlp.vim/autoload/ctrlp/rtscript.vim	/^fu! ctrlp#rtscript#id()$/;"	f
+ctrlp#rtscript#init	bundle/ctrlp.vim/autoload/ctrlp/rtscript.vim	/^fu! ctrlp#rtscript#init(caching)$/;"	f
+ctrlp#setdir	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#setdir(path, ...)$/;"	f
+ctrlp#setlcdir	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#setlcdir()$/;"	f
+ctrlp#setlines	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#setlines(...)$/;"	f
+ctrlp#statusline	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#statusline()$/;"	f
+ctrlp#switchtype	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#switchtype(id)$/;"	f
+ctrlp#syntax	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#syntax()$/;"	f
+ctrlp#tabcount	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#tabcount()$/;"	f
+ctrlp#tag#accept	bundle/ctrlp.vim/autoload/ctrlp/tag.vim	/^fu! ctrlp#tag#accept(mode, str)$/;"	f
+ctrlp#tag#enter	bundle/ctrlp.vim/autoload/ctrlp/tag.vim	/^fu! ctrlp#tag#enter()$/;"	f
+ctrlp#tag#id	bundle/ctrlp.vim/autoload/ctrlp/tag.vim	/^fu! ctrlp#tag#id()$/;"	f
+ctrlp#tag#init	bundle/ctrlp.vim/autoload/ctrlp/tag.vim	/^fu! ctrlp#tag#init()$/;"	f
+ctrlp#undo#accept	bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! ctrlp#undo#accept(mode, str)$/;"	f
+ctrlp#undo#enter	bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! ctrlp#undo#enter()$/;"	f
+ctrlp#undo#exit	bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! ctrlp#undo#exit()$/;"	f
+ctrlp#undo#id	bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! ctrlp#undo#id()$/;"	f
+ctrlp#undo#init	bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! ctrlp#undo#init()$/;"	f
+ctrlp#utils#cachedir	bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^fu! ctrlp#utils#cachedir()$/;"	f
+ctrlp#utils#cachefile	bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^fu! ctrlp#utils#cachefile(...)$/;"	f
+ctrlp#utils#fnesc	bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^fu! ctrlp#utils#fnesc(path, type, ...)$/;"	f
+ctrlp#utils#glob	bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^fu! ctrlp#utils#glob(...)$/;"	f
+ctrlp#utils#globpath	bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^fu! ctrlp#utils#globpath(...)$/;"	f
+ctrlp#utils#lash	bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^fu! ctrlp#utils#lash()$/;"	f
+ctrlp#utils#mkdir	bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^fu! ctrlp#utils#mkdir(dir)$/;"	f
+ctrlp#utils#opts	bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^fu! ctrlp#utils#opts()$/;"	f
+ctrlp#utils#readfile	bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^fu! ctrlp#utils#readfile(file)$/;"	f
+ctrlp#utils#writecache	bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^fu! ctrlp#utils#writecache(lines, ...)$/;"	f
+customOpenBookmark	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:customOpenBookmark(node) abort$/;"	f
+customOpenDir	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:customOpenDir(node) abort$/;"	f
+customOpenFile	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:customOpenFile(node) abort$/;"	f
+delent	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:delent(rfunc)$/;"	f
+deleteBookmark	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:deleteBookmark(bookmark) abort$/;"	f
+dict2list	bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! s:dict2list(dict)$/;"	f
+dictindex	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:dictindex(dict, expr)$/;"	f
+diff_modifier	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:diff_modifier(count) abort$/;"	f
+diff_restore	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:diff_restore() abort$/;"	f
+diff_window_count	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:diff_window_count() abort$/;"	f
+diffoff	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:diffoff() abort$/;"	f
+diffoff_all	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:diffoff_all(dir) abort$/;"	f
+diffthis	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:diffthis() abort$/;"	f
+dircompl	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:dircompl(be, sd)$/;"	f
+dismrk	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:dismrk()$/;"	f
+displayHelp	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:displayHelp() abort$/;"	f
+dohighlight	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:dohighlight()$/;"	f
+dosigns	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:dosigns()$/;"	f
+elapsed	bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! s:elapsed(nr)$/;"	f
+esctagscmd	bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! s:esctagscmd(bin, args, ...)$/;"	f
+excl	bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! s:excl(fn)$/;"	f
+execextvar	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:execextvar(key)$/;"	f
+exectags	bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! s:exectags(cmd)$/;"	f
+exectagsonfile	bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! s:exectagsonfile(fname, ftype)$/;"	f
+executable	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:executable(binary) abort$/;"	f
+expand_path	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! s:expand_path(path) abort$/;"	f
+fetch_scripts	bundle/Vundle.vim/autoload/vundle/scripts.vim	/^func! s:fetch_scripts(to)$/;"	f
+filter	bundle/ctrlp.vim/autoload/ctrlp/tag.vim	/^fu! s:filter(tags)$/;"	f
+findAndRevealPath	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:findAndRevealPath(pathStr) abort$/;"	f
+findcommon	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:findcommon(items, seed)$/;"	f
+findcount	bundle/ctrlp.vim/autoload/ctrlp/tag.vim	/^fu! s:findcount(str)$/;"	f
+findroot	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:findroot(curr, mark, depth, type)$/;"	f
+flatten	bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! s:flatten(tree, cur)$/;"	f
+fnameescape	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:fnameescape(file) abort$/;"	f
+fnesc	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:fnesc(...)$/;"	f
+format	bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! s:format(...)$/;"	f
+formatline	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:formatline(str)$/;"	f
+formatul	bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! s:formatul(...)$/;"	f
+fugitive	bundle/vim-fugitive/plugin/fugitive.vim	/^augroup fugitive$/;"	a
+fugitive#BlameComplete	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#BlameComplete(A, L, P) abort$/;"	f
+fugitive#BlameSyntax	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#BlameSyntax() abort$/;"	f
+fugitive#BrowseCommand	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#BrowseCommand(line1, count, range, bang, mods, arg, args) abort$/;"	f
+fugitive#BufReadCmd	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#BufReadCmd(...) abort$/;"	f
+fugitive#BufReadStatus	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#BufReadStatus() abort$/;"	f
+fugitive#BufWriteCmd	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#BufWriteCmd(...) abort$/;"	f
+fugitive#CanDiffoff	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#CanDiffoff(buf) abort$/;"	f
+fugitive#Cd	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#Cd(path, ...) abort$/;"	f
+fugitive#CdComplete	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#CdComplete(A, L, P) abort$/;"	f
+fugitive#Cfile	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#Cfile() abort$/;"	f
+fugitive#Command	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#Command(line1, line2, range, bang, mods, arg) abort$/;"	f
+fugitive#CommitComplete	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#CommitComplete(A, L, P, ...) abort$/;"	f
+fugitive#CommonDir	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#CommonDir(dir) abort$/;"	f
+fugitive#Complete	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#Complete(lead, ...) abort$/;"	f
+fugitive#CompleteForWorkingDir	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#CompleteForWorkingDir(A, L, P, ...) abort$/;"	f
+fugitive#CompleteObject	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#CompleteObject(base, ...) abort$/;"	f
+fugitive#CompletePath	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#CompletePath(base, ...) abort$/;"	f
+fugitive#Config	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#Config(...) abort$/;"	f
+fugitive#Cwindow	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#Cwindow() abort$/;"	f
+fugitive#DeleteCommand	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#DeleteCommand(line1, line2, range, bang, mods, arg, args) abort$/;"	f
+fugitive#Diffsplit	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#Diffsplit(autodir, keepfocus, mods, arg, args) abort$/;"	f
+fugitive#EditComplete	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#EditComplete(A, L, P) abort$/;"	f
+fugitive#EfmDir	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#EfmDir(...) abort$/;"	f
+fugitive#Expand	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#Expand(object) abort$/;"	f
+fugitive#FetchComplete	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#FetchComplete(A, L, P, ...) abort$/;"	f
+fugitive#FileReadCmd	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#FileReadCmd(...) abort$/;"	f
+fugitive#FileWriteCmd	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#FileWriteCmd(...) abort$/;"	f
+fugitive#Find	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#Find(object, ...) abort$/;"	f
+fugitive#Foldtext	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#Foldtext() abort$/;"	f
+fugitive#GitVersion	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#GitVersion(...) abort$/;"	f
+fugitive#GrepCommand	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#GrepCommand(line1, line2, range, bang, mods, arg) abort$/;"	f
+fugitive#GrepComplete	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#GrepComplete(A, L, P) abort$/;"	f
+fugitive#Head	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#Head(...) abort$/;"	f
+fugitive#Init	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#Init() abort$/;"	f
+fugitive#LogCommand	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#LogCommand(line1, count, range, bang, mods, args, type) abort$/;"	f
+fugitive#LogComplete	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#LogComplete(A, L, P) abort$/;"	f
+fugitive#MapCfile	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#MapCfile(...) abort$/;"	f
+fugitive#MapJumps	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#MapJumps(...) abort$/;"	f
+fugitive#MergeComplete	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#MergeComplete(A, L, P, ...) abort$/;"	f
+fugitive#MessageCfile	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#MessageCfile() abort$/;"	f
+fugitive#MoveCommand	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#MoveCommand(line1, line2, range, bang, mods, arg, args) abort$/;"	f
+fugitive#Object	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#Object(...) abort$/;"	f
+fugitive#Open	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#Open(cmd, bang, mods, arg, args) abort$/;"	f
+fugitive#PagerFor	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#PagerFor(argv, ...) abort$/;"	f
+fugitive#Path	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#Path(url, ...) abort$/;"	f
+fugitive#PathComplete	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#PathComplete(...) abort$/;"	f
+fugitive#Prepare	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#Prepare(...) abort$/;"	f
+fugitive#PrepareDirEnvArgv	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#PrepareDirEnvArgv(...) abort$/;"	f
+fugitive#PullComplete	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#PullComplete(A, L, P, ...) abort$/;"	f
+fugitive#PushComplete	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#PushComplete(A, L, P, ...) abort$/;"	f
+fugitive#ReadCommand	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#ReadCommand(line1, count, range, bang, mods, arg, args) abort$/;"	f
+fugitive#ReadComplete	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#ReadComplete(A, L, P) abort$/;"	f
+fugitive#Real	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#Real(url) abort$/;"	f
+fugitive#RebaseComplete	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#RebaseComplete(A, L, P, ...) abort$/;"	f
+fugitive#ReloadStatus	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#ReloadStatus(...) abort$/;"	f
+fugitive#RemoteUrl	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#RemoteUrl(...) abort$/;"	f
+fugitive#RemoveCommand	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#RemoveCommand(line1, line2, range, bang, mods, arg, args) abort$/;"	f
+fugitive#RenameCommand	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#RenameCommand(line1, line2, range, bang, mods, arg, args) abort$/;"	f
+fugitive#RenameComplete	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#RenameComplete(A,L,P) abort$/;"	f
+fugitive#Resume	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#Resume() abort$/;"	f
+fugitive#RevParse	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#RevParse(rev, ...) abort$/;"	f
+fugitive#RevertComplete	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#RevertComplete(A, L, P, ...) abort$/;"	f
+fugitive#SourceCmd	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#SourceCmd(...) abort$/;"	f
+fugitive#StatusCfile	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#StatusCfile() abort$/;"	f
+fugitive#Statusline	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#Statusline(...) abort$/;"	f
+fugitive#WqCommand	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#WqCommand(...) abort$/;"	f
+fugitive#WriteCommand	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#WriteCommand(line1, line2, range, bang, mods, arg, args) abort$/;"	f
+fugitive#buffer	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#buffer(...) abort$/;"	f
+fugitive#delete	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#delete(url, ...) abort$/;"	f
+fugitive#detect	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#detect(path) abort$/;"	f
+fugitive#extract_git_dir	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#extract_git_dir(path) abort$/;"	f
+fugitive#filereadable	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#filereadable(url) abort$/;"	f
+fugitive#filewritable	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#filewritable(url) abort$/;"	f
+fugitive#foldtext	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#foldtext() abort$/;"	f
+fugitive#getfperm	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#getfperm(url) abort$/;"	f
+fugitive#getfsize	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#getfsize(url) abort$/;"	f
+fugitive#getftime	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#getftime(url) abort$/;"	f
+fugitive#getftype	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#getftype(url) abort$/;"	f
+fugitive#glob	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#glob(url, ...) abort$/;"	f
+fugitive#head	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#head(...) abort$/;"	f
+fugitive#is_git_dir	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#is_git_dir(path) abort$/;"	f
+fugitive#isdirectory	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#isdirectory(url) abort$/;"	f
+fugitive#readfile	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#readfile(url, ...) abort$/;"	f
+fugitive#repo	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#repo(...) abort$/;"	f
+fugitive#resolve	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#resolve(url) abort$/;"	f
+fugitive#setfperm	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#setfperm(url, perm) abort$/;"	f
+fugitive#simplify	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#simplify(url) abort$/;"	f
+fugitive#statusline	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#statusline(...) abort$/;"	f
+fugitive#writefile	bundle/vim-fugitive/autoload/fugitive.vim	/^function! fugitive#writefile(lines, url, ...) abort$/;"	f
+fugitive_blame	bundle/vim-fugitive/autoload/fugitive.vim	/^augroup fugitive_blame$/;"	a
+fugitive_diff	bundle/vim-fugitive/autoload/fugitive.vim	/^augroup fugitive_diff$/;"	a
+fugitive_job	bundle/vim-fugitive/autoload/fugitive.vim	/^augroup fugitive_job$/;"	a
+fugitive_status	bundle/vim-fugitive/autoload/fugitive.vim	/^augroup fugitive_status$/;"	a
+fugitive_temp	bundle/vim-fugitive/autoload/fugitive.vim	/^augroup fugitive_temp$/;"	a
+function	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:function(name) abort$/;"	f
+g:NERDTree	bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^let g:NERDTree = s:NERDTree$/;"	v
+g:NERDTreeAutoDeleteBuffer	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^    let g:NERDTreeAutoDeleteBuffer = 0$/;"	v
+g:NERDTreeBookmark	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^let g:NERDTreeBookmark = s:Bookmark$/;"	v
+g:NERDTreeCreator	bundle/nerdtree/lib/nerdtree/creator.vim	/^let g:NERDTreeCreator = s:Creator$/;"	v
+g:NERDTreeDirNode	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^let g:NERDTreeDirNode = s:TreeDirNode$/;"	v
+g:NERDTreeEvent	bundle/nerdtree/lib/nerdtree/event.vim	/^let g:NERDTreeEvent = s:Event$/;"	v
+g:NERDTreeFileNode	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^let g:NERDTreeFileNode = s:TreeFileNode$/;"	v
+g:NERDTreeFlagSet	bundle/nerdtree/lib/nerdtree/flag_set.vim	/^let g:NERDTreeFlagSet = s:FlagSet$/;"	v
+g:NERDTreeIgnore	bundle/nerdtree/plugin/NERD_tree.vim	/^    let g:NERDTreeIgnore = ['\\~$']$/;"	v
+g:NERDTreeKeyMap	bundle/nerdtree/lib/nerdtree/key_map.vim	/^let g:NERDTreeKeyMap = s:KeyMap$/;"	v
+g:NERDTreeMenuController	bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^let g:NERDTreeMenuController = s:MenuController$/;"	v
+g:NERDTreeMenuItem	bundle/nerdtree/lib/nerdtree/menu_item.vim	/^let g:NERDTreeMenuItem = s:MenuItem$/;"	v
+g:NERDTreeOldSortOrder	bundle/nerdtree/plugin/NERD_tree.vim	/^let g:NERDTreeOldSortOrder = []$/;"	v
+g:NERDTreeOpener	bundle/nerdtree/lib/nerdtree/opener.vim	/^let g:NERDTreeOpener = s:Opener$/;"	v
+g:NERDTreePath	bundle/nerdtree/lib/nerdtree/path.vim	/^let g:NERDTreePath = s:Path$/;"	v
+g:NERDTreePathNotifier	bundle/nerdtree/lib/nerdtree/notifier.vim	/^let g:NERDTreePathNotifier = deepcopy(s:Notifier)$/;"	v
+g:NERDTreeSortOrder	bundle/nerdtree/plugin/NERD_tree.vim	/^    let g:NERDTreeSortOrder = ['\\\/$', '*', '\\.swp$',  '\\.bak$', '\\~$']$/;"	v
+g:NERDTreeStatusline	bundle/nerdtree/plugin/NERD_tree.vim	/^    let g:NERDTreeStatusline = "%{exists('b:NERDTree')?b:NERDTree.root.path.str():''}"$/;"	v
+g:NERDTreeUI	bundle/nerdtree/lib/nerdtree/ui.vim	/^let g:NERDTreeUI = s:UI$/;"	v
+g:autoloaded_fugitive	bundle/vim-fugitive/autoload/fugitive.vim	/^let g:autoloaded_fugitive = 1$/;"	v
+g:colors_name	colors/atom-dark-256.vim	/^    let g:colors_name = expand("<sfile>:t:r")$/;"	v
+g:colors_name	colors/atom-dark.vim	/^let g:colors_name="atom-dark"$/;"	v
+g:ctrlp_custom_ignore	config.vim	/^let g:ctrlp_custom_ignore = '\\v[\\\/]\\.(git|node_modules\\|DS_Store\\)$'$/;"	v
+g:fugitive_git_executable	bundle/vim-fugitive/autoload/fugitive.vim	/^  let g:fugitive_git_executable = 'env ' . g:fugitive_git_executable$/;"	v
+g:fugitive_git_executable	bundle/vim-fugitive/autoload/fugitive.vim	/^  let g:fugitive_git_executable = 'git'$/;"	v
+g:fugitive_summary_format	bundle/vim-fugitive/autoload/fugitive.vim	/^  let g:fugitive_summary_format = '%s'$/;"	v
+g:io_fugitive	bundle/vim-fugitive/plugin/fugitive.vim	/^let g:io_fugitive = {$/;"	v
+g:loaded_ctrlp	bundle/ctrlp.vim/plugin/ctrlp.vim	/^let g:loaded_ctrlp = 1$/;"	v
+g:loaded_ctrlp_bookmarkdir	bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^let g:loaded_ctrlp_bookmarkdir = 1$/;"	v
+g:loaded_ctrlp_buftag	bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^let g:loaded_ctrlp_buftag = 1$/;"	v
+g:loaded_ctrlp_changes	bundle/ctrlp.vim/autoload/ctrlp/changes.vim	/^let g:loaded_ctrlp_changes = 1$/;"	v
+g:loaded_ctrlp_line	bundle/ctrlp.vim/autoload/ctrlp/line.vim	/^let g:loaded_ctrlp_line = 1$/;"	v
+g:loaded_ctrlp_quickfix	bundle/ctrlp.vim/autoload/ctrlp/quickfix.vim	/^let g:loaded_ctrlp_quickfix = 1$/;"	v
+g:loaded_ctrlp_tag	bundle/ctrlp.vim/autoload/ctrlp/tag.vim	/^let g:loaded_ctrlp_tag = 1$/;"	v
+g:loaded_ctrlp_undo	bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^let g:loaded_ctrlp_undo = 1$/;"	v
+g:loaded_fugitive	bundle/vim-fugitive/plugin/fugitive.vim	/^let g:loaded_fugitive = 1$/;"	v
+g:loaded_nerdtree_autoload	bundle/nerdtree/autoload/nerdtree.vim	/^let g:loaded_nerdtree_autoload = 1$/;"	v
+g:loaded_nerdtree_exec_menuitem	bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim	/^let g:loaded_nerdtree_exec_menuitem = 1$/;"	v
+g:loaded_nerdtree_fs_menu	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^let g:loaded_nerdtree_fs_menu = 1$/;"	v
+g:loaded_nerdtree_ui_glue_autoload	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^let g:loaded_nerdtree_ui_glue_autoload = 1$/;"	v
+get_current_origin_url	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! s:get_current_origin_url(bundle) abort$/;"	f
+get_current_sha	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! s:get_current_sha(bundle)$/;"	f
+getbookmarks	bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:getbookmarks()$/;"	f
+getenv	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:getenv()$/;"	f
+getextvar	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:getextvar(key)$/;"	f
+gethistdata	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:gethistdata()$/;"	f
+gethistloc	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:gethistloc()$/;"	f
+getinput	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:getinput(...)$/;"	f
+getinput	bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:getinput(str, ...)$/;"	f
+getnewmix	bundle/ctrlp.vim/autoload/ctrlp/mixed.vim	/^fu! s:getnewmix(cwd, clim)$/;"	f
+getparent	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:getparent(item)$/;"	f
+getregs	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:getregs()$/;"	f
+getundo	bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! s:getundo()$/;"	f
+glbpath	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:glbpath(...)$/;"	f
+globdirs	bundle/ctrlp.vim/autoload/ctrlp/dir.vim	/^fu! s:globdirs(dirs, depth)$/;"	f
+gsub	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:gsub(str,pat,rep) abort$/;"	f
+handleLeftClick	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:handleLeftClick() abort$/;"	f
+handleMiddleMouse	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:handleMiddleMouse() abort$/;"	f
+has_doc	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! s:has_doc(rtp) abort$/;"	f
+headntail	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:headntail(str)$/;"	f
+helptags	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! s:helptags(rtp) abort$/;"	f
+highlight	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:highlight(pat, grp)$/;"	f
+ifilter	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:ifilter(list, str)$/;"	f
+ignore	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:ignore()$/;"	f
+init	bundle/Vundle.vim/test/files/test.erl	/^init(_) ->$/;"	f	module:mmc_logmon_sup
+initCustomOpenArgs	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:initCustomOpenArgs() abort$/;"	f
+initVariable	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:initVariable(var, value)$/;"	f
+inputPrompt	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! s:inputPrompt(action)$/;"	f
+insertcache	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:insertcache(str)$/;"	f
+insertstr	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:insertstr()$/;"	f
+iscmdwin	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:iscmdwin()$/;"	f
+ispathitem	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:ispathitem()$/;"	f
+jumpToChild	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:jumpToChild(node, last) abort$/;"	f
+jumpToFirstChild	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:jumpToFirstChild(node) abort$/;"	f
+jumpToLastChild	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:jumpToLastChild(node) abort$/;"	f
+jumpToNextSibling	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:jumpToNextSibling(node) abort$/;"	f
+jumpToParent	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:jumpToParent(node) abort$/;"	f
+jumpToPrevSibling	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:jumpToPrevSibling(node) abort$/;"	f
+jumpToRoot	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:jumpToRoot() abort$/;"	f
+jumpToSibling	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:jumpToSibling(node, forward) abort$/;"	f
+lash	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:lash(...)$/;"	f
+lash	bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^fu! s:lash(...)$/;"	f
+lastvisual	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:lastvisual()$/;"	f
+leavepre	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:leavepre()$/;"	f
+linechars	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:linechars(pattern) abort$/;"	f
+lineout	bundle/ctrlp.vim/autoload/ctrlp/quickfix.vim	/^fu! s:lineout(dict)$/;"	f
+load_scripts	bundle/Vundle.vim/autoload/vundle/scripts.vim	/^func! s:load_scripts(bang)$/;"	f
+loaded_nerd_tree	bundle/nerdtree/plugin/NERD_tree.vim	/^let loaded_nerd_tree = 1$/;"	v
+log	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! s:log(str, ...) abort$/;"	f
+log	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:log(m)$/;"	f
+lsCmd	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:lsCmd()$/;"	f
+make_sync_command	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! s:make_sync_command(bang, bundle) abort$/;"	f
+mapleader	map.vim	/^let mapleader = ','$/;"	v
+match_window_opts	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:match_window_opts()$/;"	f
+matchfname	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:matchfname(item, pat)$/;"	f
+matchlens	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:matchlens(str, pat, ...)$/;"	f
+matchtabe	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:matchtabe(item, pat)$/;"	f
+matchtabs	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:matchtabs(item, pat)$/;"	f
+max	bundle/ctrlp.vim/autoload/ctrlp/dir.vim	/^fu! s:max(len, max)$/;"	f
+maxf	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:maxf(len)$/;"	f
+mergelists	bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! s:mergelists()$/;"	f
+mfunc	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:mfunc()$/;"	f
+migemo	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:migemo(str)$/;"	f
+mixedsort	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:mixedsort(...)$/;"	f
+mmc_logmon_sup	bundle/Vundle.vim/test/files/test.erl	/^-module(mmc_logmon_sup).$/;"	m
+mmode	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:mmode()$/;"	f
+modevar	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:modevar()$/;"	f
+modify	bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:modify(entry, type)$/;"	f
+msg	bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:msg(name, cwd)$/;"	f
+mtype	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:mtype()$/;"	f
+multipliers	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:multipliers(...)$/;"	f
+narrowable	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:narrowable()$/;"	f
+nerdtree#and	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#and(x,y) abort$/;"	f
+nerdtree#checkForBrowse	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#checkForBrowse(dir) abort$/;"	f
+nerdtree#compareNodes	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#compareNodes(n1, n2) abort$/;"	f
+nerdtree#compareNodesBySortKey	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#compareNodesBySortKey(n1, n2) abort$/;"	f
+nerdtree#completeBookmarks	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#completeBookmarks(A,L,P) abort$/;"	f
+nerdtree#deprecated	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#deprecated(func, ...) abort$/;"	f
+nerdtree#echo	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#echo(msg) abort$/;"	f
+nerdtree#echoError	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#echoError(msg) abort$/;"	f
+nerdtree#echoWarning	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#echoWarning(msg) abort$/;"	f
+nerdtree#exec	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#exec(cmd, ignoreAll) abort$/;"	f
+nerdtree#has_opt	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#has_opt(options, name) abort$/;"	f
+nerdtree#loadClassFiles	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#loadClassFiles() abort$/;"	f
+nerdtree#postSourceActions	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#postSourceActions() abort$/;"	f
+nerdtree#renderView	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#renderView() abort$/;"	f
+nerdtree#runningCygwin	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#runningCygwin() abort$/;"	f
+nerdtree#runningWindows	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#runningWindows() abort$/;"	f
+nerdtree#slash	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#slash() abort$/;"	f
+nerdtree#ui_glue#bookmarkNode	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#bookmarkNode(...) abort$/;"	f
+nerdtree#ui_glue#chRootCwd	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#chRootCwd() abort$/;"	f
+nerdtree#ui_glue#clearBookmarks	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#clearBookmarks(bookmarks) abort$/;"	f
+nerdtree#ui_glue#createDefaultBindings	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#createDefaultBindings() abort$/;"	f
+nerdtree#ui_glue#invokeKeyMap	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#invokeKeyMap(key) abort$/;"	f
+nerdtree#ui_glue#openBookmark	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#openBookmark(name) abort$/;"	f
+nerdtree#ui_glue#revealBookmark	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#revealBookmark(name) abort$/;"	f
+nerdtree#ui_glue#setupCommands	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#setupCommands() abort$/;"	f
+nerdtree#ui_glue#upDir	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#upDir(preserveState) abort$/;"	f
+nerdtree#version	bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#version(...) abort$/;"	f
+newcache	bundle/ctrlp.vim/autoload/ctrlp/mixed.vim	/^fu! s:newcache(cwd)$/;"	f
+nocache	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:nocache(...)$/;"	f
+nocache	bundle/ctrlp.vim/autoload/ctrlp/dir.vim	/^fu! s:nocache()$/;"	f
+nocache	bundle/ctrlp.vim/autoload/ctrlp/rtscript.vim	/^fu! s:nocache()$/;"	f
+nonamecond	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:nonamecond(str, filpath)$/;"	f
+nosort	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:nosort()$/;"	f
+nosplit	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:nosplit()$/;"	f
+offset	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:offset(lines, height)$/;"	f
+old_kde	colors/atom-dark-256.vim	/^function! s:old_kde()$/;"	f
+openExplorer	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:openExplorer(node) abort$/;"	f
+openHSplit	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:openHSplit(target) abort$/;"	f
+openHSplitBookmark	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:openHSplitBookmark(bm) abort$/;"	f
+openInNewTab	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:openInNewTab(target) abort$/;"	f
+openInNewTabSilent	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:openInNewTabSilent(target) abort$/;"	f
+openNodeRecursively	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:openNodeRecursively(node) abort$/;"	f
+openVSplit	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:openVSplit(target) abort$/;"	f
+openVSplitBookmark	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:openVSplitBookmark(bm) abort$/;"	f
+openfile	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:openfile(cmd, fid, tail, chkmod, ...)$/;"	f
+opts	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:opts(...)$/;"	f
+parse_name	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! s:parse_name(arg)$/;"	f
+parse_options	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! s:parse_options(opts)$/;"	f
+parseline	bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! s:parseline(line)$/;"	f
+parts	bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:parts(str)$/;"	f
+pathshorten	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:pathshorten(str)$/;"	f
+previewBookmark	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:previewBookmark(bookmark) abort$/;"	f
+previewNodeCurrent	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:previewNodeCurrent(node) abort$/;"	f
+previewNodeHSplit	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:previewNodeHSplit(node) abort$/;"	f
+previewNodeHSplitBookmark	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:previewNodeHSplitBookmark(bookmark) abort$/;"	f
+previewNodeVSplit	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:previewNodeVSplit(node) abort$/;"	f
+previewNodeVSplitBookmark	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:previewNodeVSplitBookmark(bookmark) abort$/;"	f
+process	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! s:process(bang, cmd)$/;"	f
+process	bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:process(entries, type)$/;"	f
+process	bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! s:process(fname, ftype)$/;"	f
+process	bundle/ctrlp.vim/autoload/ctrlp/changes.vim	/^fu! s:process(clines, ...)$/;"	f
+promptToDelBuffer	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! s:promptToDelBuffer(bufnum, msg)$/;"	f
+record	bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! s:record(bufnr)$/;"	f
+reformat	bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! s:reformat(mrufs, ...)$/;"	f
+refreshCurrent	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:refreshCurrent(node) abort$/;"	f
+refreshRoot	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:refreshRoot() abort$/;"	f
+regexfilter	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:regexfilter(str)$/;"	f
+regisfilter	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:regisfilter(reg)$/;"	f
+remarksigns	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:remarksigns()$/;"	f
+renameBuffer	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! s:renameBuffer(bufNum, newNodeName, isDirectory)$/;"	f
+repo_bare	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:repo_bare() dict abort$/;"	f
+repo_config	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:repo_config(name) dict abort$/;"	f
+repo_dir	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:repo_dir(...) dict abort$/;"	f
+repo_find	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:repo_find(object) dict abort$/;"	f
+repo_git_chomp	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:repo_git_chomp(...) dict abort$/;"	f
+repo_git_chomp_in_tree	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:repo_git_chomp_in_tree(...) dict abort$/;"	f
+repo_git_command	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:repo_git_command(...) dict abort$/;"	f
+repo_head	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:repo_head(...) dict abort$/;"	f
+repo_prepare	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:repo_prepare(...) dict abort$/;"	f
+repo_rev_parse	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:repo_rev_parse(rev) dict abort$/;"	f
+repo_superglob	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:repo_superglob(base) dict abort$/;"	f
+repo_translate	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:repo_translate(rev) dict abort$/;"	f
+repo_tree	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:repo_tree(...) dict abort$/;"	f
+repo_user	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:repo_user() dict abort$/;"	f
+reuseWin	bundle/nerdtree/autoload/nerdtree.vim	/^function! s:reuseWin(dir) abort$/;"	f
+rtp_add	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! s:rtp_add(dir) abort$/;"	f
+rtp_add_a	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! s:rtp_add_a()$/;"	f
+rtp_add_defaults	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! s:rtp_add_defaults()$/;"	f
+rtp_rm	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! s:rtp_rm(dir) abort$/;"	f
+rtp_rm_a	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! s:rtp_rm_a()$/;"	f
+rtpath	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! s:rtpath(opts)$/;"	f
+s:Bookmark	bundle/nerdtree/lib/nerdtree/bookmark.vim	/^let s:Bookmark = {}$/;"	v
+s:Creator	bundle/nerdtree/lib/nerdtree/creator.vim	/^let s:Creator = {}$/;"	v
+s:Event	bundle/nerdtree/lib/nerdtree/event.vim	/^let s:Event = {}$/;"	v
+s:FlagSet	bundle/nerdtree/lib/nerdtree/flag_set.vim	/^let s:FlagSet = {}$/;"	v
+s:KeyMap	bundle/nerdtree/lib/nerdtree/key_map.vim	/^let s:KeyMap = {}$/;"	v
+s:MenuController	bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^let s:MenuController = {}$/;"	v
+s:MenuItem	bundle/nerdtree/lib/nerdtree/menu_item.vim	/^let s:MenuItem = {}$/;"	v
+s:NERDTree	bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^let s:NERDTree = {}$/;"	v
+s:Notifier	bundle/nerdtree/lib/nerdtree/notifier.vim	/^let s:Notifier = {}$/;"	v
+s:Opener	bundle/nerdtree/lib/nerdtree/opener.vim	/^let s:Opener = {}$/;"	v
+s:Path	bundle/nerdtree/lib/nerdtree/path.vim	/^let s:Path = {}$/;"	v
+s:TreeDirNode	bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^let s:TreeDirNode = copy(g:NERDTreeFileNode)$/;"	v
+s:TreeFileNode	bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^let s:TreeFileNode = {}$/;"	v
+s:UI	bundle/nerdtree/lib/nerdtree/ui.vim	/^let s:UI = {}$/;"	v
+s:addr_other	bundle/vim-fugitive/plugin/fugitive.vim	/^let s:addr_other = has('patch-8.1.560') ? '-addr=other' : ''$/;"	v
+s:addr_tabs	bundle/vim-fugitive/plugin/fugitive.vim	/^let s:addr_tabs  = has('patch-7.4.542') ? '-addr=tabs' : ''$/;"	v
+s:addr_wins	bundle/vim-fugitive/plugin/fugitive.vim	/^let s:addr_wins  = has('patch-7.4.542') ? '-addr=windows' : ''$/;"	v
+s:aliases	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:aliases = {}$/;"	v
+s:ars	bundle/ctrlp.vim/autoload/ctrlp/dir.vim	/^let s:ars = ['s:maxdepth', 's:maxfiles', 's:compare_lim', 's:glob', 's:caching']$/;"	v
+s:bins	bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^let s:bins = [$/;"	v
+s:blobdirs	bundle/vim-fugitive/autoload/fugitive.vim	/^  let s:blobdirs = {}$/;"	v
+s:buffer_prototype	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:buffer_prototype = {}$/;"	v
+s:bundle	bundle/Vundle.vim/autoload/vundle/config.vim	/^let s:bundle = {}$/;"	v
+s:ccex	bundle/ctrlp.vim/autoload/ctrlp.vim	/^let s:ccex = s:pref.'clear_cache_on_exit'$/;"	v
+s:common_efm	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:common_efm = ''$/;"	v
+s:commondirs	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:commondirs = {}$/;"	v
+s:compare_lim	bundle/ctrlp.vim/autoload/ctrlp.vim	/^let s:compare_lim = 3000$/;"	v
+s:config	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:config = {}$/;"	v
+s:dirArrows	bundle/nerdtree/syntax/nerdtree.vim	/^    let s:dirArrows = escape(g:NERDTreeDirArrowCollapsible, '~]\\-').escape(g:NERDTreeDirArrowExpandable, '~]\\-')$/;"	v
+s:dir_for_worktree	bundle/vim-fugitive/plugin/fugitive.vim	/^let s:dir_for_worktree = {}$/;"	v
+s:dircounts	bundle/ctrlp.vim/autoload/ctrlp/dir.vim	/^let s:dircounts = {}$/;"	v
+s:disable_colors	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:disable_colors = []$/;"	v
+s:edit_jobs	bundle/vim-fugitive/autoload/fugitive.vim	/^  let s:edit_jobs = {}$/;"	v
+s:exec_paths	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:exec_paths = {}$/;"	v
+s:executables	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:executables = {}$/;"	v
+s:expand	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:expand = '\\%(\\(' . s:var . '\\)\\(' . s:flag . '*\\)\\(:S\\)\\=\\)'$/;"	v
+s:ficounts	bundle/ctrlp.vim/autoload/ctrlp.vim	/^let s:ficounts = {}$/;"	v
+s:file_commit_pattern	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:file_commit_pattern = s:file_pattern . '\\|^\\%(\\l\\{3,\\} \\)\\=[0-9a-f]\\{4,\\} '$/;"	v
+s:file_pattern	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:file_pattern = '^[A-Z?] .\\|^diff --'$/;"	v
+s:filecounts	bundle/ctrlp.vim/autoload/ctrlp/rtscript.vim	/^let s:filecounts = {}$/;"	v
+s:flag	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:flag = '\\%(:[p8~.htre]\\|:g\\=s\\(.\\).\\{-\\}\\1.\\{-\\}\\1\\)'$/;"	v
+s:fnameescape	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:fnameescape = " \\t\\n*?[{`$\\\\%#'\\"|!<"$/;"	v
+s:fpats	bundle/ctrlp.vim/autoload/ctrlp.vim	/^let s:fpats = {$/;"	v
+s:git_versions	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:git_versions = {}$/;"	v
+s:glbs	bundle/ctrlp.vim/autoload/ctrlp.vim	/^let s:glbs = { 'magic': 1, 'to': 1, 'tm': 0, 'sb': 1, 'hls': 0, 'im': 0,$/;"	v
+s:globsubs	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:globsubs = {$/;"	v
+s:hash_colors	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:hash_colors = {}$/;"	v
+s:head_cache	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:head_cache = {}$/;"	v
+s:hlgrps	bundle/ctrlp.vim/autoload/ctrlp.vim	/^let s:hlgrps = {$/;"	v
+s:id	bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^let s:id = g:ctrlp_builtins + len(g:ctrlp_ext_vars)$/;"	v
+s:id	bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^let s:id = g:ctrlp_builtins + len(g:ctrlp_ext_vars)$/;"	v
+s:id	bundle/ctrlp.vim/autoload/ctrlp/changes.vim	/^let s:id = g:ctrlp_builtins + len(g:ctrlp_ext_vars)$/;"	v
+s:id	bundle/ctrlp.vim/autoload/ctrlp/dir.vim	/^let s:id = g:ctrlp_builtins + len(g:ctrlp_ext_vars)$/;"	v
+s:id	bundle/ctrlp.vim/autoload/ctrlp/line.vim	/^let s:id = g:ctrlp_builtins + len(g:ctrlp_ext_vars)$/;"	v
+s:id	bundle/ctrlp.vim/autoload/ctrlp/mixed.vim	/^let s:id = g:ctrlp_builtins + len(g:ctrlp_ext_vars)$/;"	v
+s:id	bundle/ctrlp.vim/autoload/ctrlp/quickfix.vim	/^let s:id = g:ctrlp_builtins + len(g:ctrlp_ext_vars)$/;"	v
+s:id	bundle/ctrlp.vim/autoload/ctrlp/rtscript.vim	/^let s:id = g:ctrlp_builtins + len(g:ctrlp_ext_vars)$/;"	v
+s:id	bundle/ctrlp.vim/autoload/ctrlp/tag.vim	/^let s:id = g:ctrlp_builtins + len(g:ctrlp_ext_vars)$/;"	v
+s:id	bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^let s:id = g:ctrlp_builtins + len(g:ctrlp_ext_vars)$/;"	v
+s:indexes	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:indexes = {}$/;"	v
+s:item_pattern	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:item_pattern = s:file_commit_pattern . '\\|^@@'$/;"	v
+s:keyMaps	bundle/nerdtree/lib/nerdtree/key_map.vim	/^let s:keyMaps = {}$/;"	v
+s:kprange	bundle/ctrlp.vim/autoload/ctrlp.vim	/^let s:kprange = {$/;"	v
+s:last_time	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:last_time = reltime()$/;"	v
+s:last_times	bundle/vim-fugitive/autoload/fugitive.vim	/^  let s:last_times = {}$/;"	v
+s:log_diff_context	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:log_diff_context = '{"filename": fugitive#Find(v:val . from, a:dir), "lnum": get(offsets, v:key), "module": strpart(v:val, 0, len(a:state.base_module)) . from}'$/;"	v
+s:merge_heads	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:merge_heads = ['MERGE_HEAD', 'REBASE_HEAD', 'CHERRY_PICK_HEAD', 'REVERT_HEAD']$/;"	v
+s:nowait	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:nowait = v:version >= 704 ? '<nowait>' : ''$/;"	v
+s:nowait	bundle/vim-fugitive/plugin/fugitive.vim	/^let s:nowait = v:version >= 704 ? '<nowait>' : ''$/;"	v
+s:old_cpo	bundle/nerdtree/plugin/NERD_tree.vim	/^let s:old_cpo = &cpoptions$/;"	v
+s:prepare_env	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:prepare_env = {$/;"	v
+s:rebase_abbrevs	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:rebase_abbrevs = {$/;"	v
+s:redirects	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:redirects = {}$/;"	v
+s:ref_header	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:ref_header = '\\%(Merge\\|Rebase\\|Upstream\\|Pull\\|Push\\)'$/;"	v
+s:repo_prototype	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:repo_prototype = {}$/;"	v
+s:repos	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:repos = {}$/;"	v
+s:resume_queue	bundle/vim-fugitive/autoload/fugitive.vim	/^  let s:resume_queue = []$/;"	v
+s:rootNERDTreePath	bundle/nerdtree/autoload/nerdtree.vim	/^let s:rootNERDTreePath = resolve(expand('<sfile>:p:h:h'))$/;"	v
+s:section_commit_pattern	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:section_commit_pattern = s:section_pattern . '\\|^commit '$/;"	v
+s:section_pattern	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:section_pattern = '^[A-Z][a-z][^:]*$'$/;"	v
+s:temp_files	bundle/vim-fugitive/autoload/fugitive.vim	/^  let s:temp_files = {}$/;"	v
+s:temp_scripts	bundle/vim-fugitive/autoload/fugitive.vim	/^  let s:temp_scripts = {}$/;"	v
+s:text	bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^let s:text = map(['second', 'seconds', 'minutes', 'hours', 'days', 'weeks',$/;"	v
+s:tree_up_dir_line	bundle/nerdtree/syntax/nerdtree.vim	/^let s:tree_up_dir_line = '.. (up a dir)'$/;"	v
+s:trees	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:trees = {}$/;"	v
+s:types	bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^let s:types = {$/;"	v
+s:var	bundle/vim-fugitive/autoload/fugitive.vim	/^let s:var = '\\%(%\\|#<\\=\\d\\+\\|##\\=\\)'$/;"	v
+s:wig_cond	bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^let s:wig_cond = v:version > 702 || ( v:version == 702 && has('patch051') )$/;"	v
+s:worktree_for_dir	bundle/vim-fugitive/plugin/fugitive.vim	/^let s:worktree_for_dir = {}$/;"	v
+samerootsyml	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:samerootsyml(each, isfile, cwd)$/;"	f
+sanstail	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:sanstail(str)$/;"	f
+savebookmark	bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:savebookmark(name, cwd)$/;"	f
+savetofile	bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! s:savetofile(mrufs)$/;"	f
+setentries	bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:setentries()$/;"	f
+settype	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:settype(type)$/;"	f
+setupblank	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:setupblank()$/;"	f
+shellesc	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:shellesc(arg) abort$/;"	f
+shortest	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:shortest(lens)$/;"	f
+showMenu	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:showMenu(node) abort$/;"	f
+sign	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! s:sign(status)$/;"	f
+strip	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! s:strip(str)$/;"	f
+strwidth	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:strwidth(str)$/;"	f
+sub	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:sub(str,pat,rep) abort$/;"	f
+sublist	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:sublist(l, s, e)$/;"	f
+sublist7071	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:sublist7071(l, s, e)$/;"	f
+sync	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! s:sync(bang, bundle) abort$/;"	f
+syntax	bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:syntax()$/;"	f
+syntax	bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! s:syntax()$/;"	f
+syntax	bundle/ctrlp.vim/autoload/ctrlp/changes.vim	/^fu! s:syntax()$/;"	f
+syntax	bundle/ctrlp.vim/autoload/ctrlp/line.vim	/^fu! s:syntax()$/;"	f
+syntax	bundle/ctrlp.vim/autoload/ctrlp/quickfix.vim	/^fu! s:syntax()$/;"	f
+syntax	bundle/ctrlp.vim/autoload/ctrlp/tag.vim	/^fu! s:syntax()$/;"	f
+syntax	bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! s:syntax()$/;"	f
+system	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! s:system(cmd) abort$/;"	f
+tail	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:tail()$/;"	f
+textdialog	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:textdialog(str)$/;"	f
+throw	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:throw(string) abort$/;"	f
+toggleIgnoreFilter	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:toggleIgnoreFilter() abort$/;"	f
+toggleShowBookmarks	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:toggleShowBookmarks() abort$/;"	f
+toggleShowFiles	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:toggleShowFiles() abort$/;"	f
+toggleShowHidden	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:toggleShowHidden() abort$/;"	f
+toggleZoom	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:toggleZoom() abort$/;"	f
+unmarksigns	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:unmarksigns()$/;"	f
+upDirCurrentRootClosed	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:upDirCurrentRootClosed() abort$/;"	f
+upDirCurrentRootOpen	bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:upDirCurrentRootOpen() abort$/;"	f
+usrign	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:usrign(item, type)$/;"	f
+vacantdict	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:vacantdict(dict)$/;"	f
+validfile	bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! s:validfile(fname, ftype)$/;"	f
+view_changelog	bundle/Vundle.vim/autoload/vundle/scripts.vim	/^func! s:view_changelog()$/;"	f
+view_log	bundle/Vundle.vim/autoload/vundle/scripts.vim	/^func! s:view_log()$/;"	f
+vundle#begin	bundle/Vundle.vim/autoload/vundle.vim	/^func! vundle#begin(...) abort$/;"	f
+vundle#bundle_dir	bundle/Vundle.vim/autoload/vundle.vim	/^let vundle#bundle_dir = expand('$HOME\/.vim\/bundle', 1)$/;"	v
+vundle#bundles	bundle/Vundle.vim/autoload/vundle.vim	/^let vundle#bundles = []$/;"	v
+vundle#config#activate_bundles	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! vundle#config#activate_bundles()$/;"	f
+vundle#config#bundle	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! vundle#config#bundle(arg, ...)$/;"	f
+vundle#config#init	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! vundle#config#init()$/;"	f
+vundle#config#init_bundle	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! vundle#config#init_bundle(name, opts)$/;"	f
+vundle#config#require	bundle/Vundle.vim/autoload/vundle/config.vim	/^func! vundle#config#require(bundles) abort$/;"	f
+vundle#end	bundle/Vundle.vim/autoload/vundle.vim	/^func! vundle#end(...) abort$/;"	f
+vundle#installer#clean	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#clean(bang) abort$/;"	f
+vundle#installer#delete	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#delete(bang, dir_name) abort$/;"	f
+vundle#installer#docs	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#docs() abort$/;"	f
+vundle#installer#helptags	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#helptags(bundles) abort$/;"	f
+vundle#installer#install	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#install(bang, name) abort$/;"	f
+vundle#installer#install_and_require	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#install_and_require(bang, name) abort$/;"	f
+vundle#installer#list	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#list(bang) abort$/;"	f
+vundle#installer#new	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#new(bang, ...) abort$/;"	f
+vundle#installer#run	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#run(func_name, name, ...) abort$/;"	f
+vundle#installer#shellesc	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#shellesc(cmd) abort$/;"	f
+vundle#installer#shellesc_cd	bundle/Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#shellesc_cd(cmd) abort$/;"	f
+vundle#lazy_load	bundle/Vundle.vim/autoload/vundle.vim	/^let vundle#lazy_load = 0$/;"	v
+vundle#log	bundle/Vundle.vim/autoload/vundle.vim	/^let vundle#log = []$/;"	v
+vundle#rc	bundle/Vundle.vim/autoload/vundle.vim	/^func! vundle#rc(...) abort$/;"	f
+vundle#scripts#all	bundle/Vundle.vim/autoload/vundle/scripts.vim	/^func! vundle#scripts#all(bang, ...)$/;"	f
+vundle#scripts#bundle_names	bundle/Vundle.vim/autoload/vundle/scripts.vim	/^func! vundle#scripts#bundle_names(names)$/;"	f
+vundle#scripts#complete	bundle/Vundle.vim/autoload/vundle/scripts.vim	/^func! vundle#scripts#complete(a,c,d)$/;"	f
+vundle#scripts#reload	bundle/Vundle.vim/autoload/vundle/scripts.vim	/^func! vundle#scripts#reload() abort$/;"	f
+vundle#scripts#view	bundle/Vundle.vim/autoload/vundle/scripts.vim	/^func! vundle#scripts#view(title, headers, results)$/;"	f
+vundle#updated_bundles	bundle/Vundle.vim/autoload/vundle.vim	/^let vundle#updated_bundles = []$/;"	v
+walker	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:walker(m, p, d)$/;"	f
+winshell	bundle/vim-fugitive/autoload/fugitive.vim	/^function! s:winshell() abort$/;"	f
+writecache	bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:writecache(cafile)$/;"	f
+writecache	bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:writecache(lines)$/;"	f
