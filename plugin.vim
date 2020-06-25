@@ -18,6 +18,8 @@ Plugin 'StanAngeloff/php.vim'
 Plugin 'arnaud-lb/vim-php-namespace'
 Plugin 'ervandew/supertab'
 
+Plugin 'beanworks/vim-phpfmt'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 filetype plugin on
