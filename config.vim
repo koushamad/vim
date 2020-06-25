@@ -1,10 +1,11 @@
 syntax enable
-colorscheme atom-dark
+colorscheme dracula
 set t_CO=256
 set number
 set noerrorbells visualbell t_vb=
-let g:airline_theme='deus'
+let g:airline_theme='dracula'
 let g:airline_powerline_fonts = 1
+let g:clap_theme = 'material_design_dark'
 
 set macligatures
 set guioptions-=e
@@ -30,7 +31,7 @@ set autowriteall
 set complete=.,w,b,u
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
 set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
-
+let g:ycm_auto_trigger = 1
 "-------------------------------Ctags----------------------------------"
 let g:auto_ctags = 1
 let g:auto_ctags_directory_list = ['.git', '.svn']

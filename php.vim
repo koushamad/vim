@@ -16,3 +16,5 @@ autocmd FileType php noremap <Leader>u :call PhpExpandClass()<CR>
 "-------------------------------PHPCodeStype----------------------------------"
 let g:phpfmt_standard = 'PSR2'
 let g:phpfmt_autosave = 0
+
+

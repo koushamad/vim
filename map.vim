@@ -9,6 +9,8 @@ nmap <Leader>es :e ~/vim/snippets/<cr>
 "-------------------------------Search----------------------------------"
 nmap <Leader><space> :nohlsearch<cr>
 nmap <D-1> :NERDTreeToggle<cr>
+nmap <D-2> :TagbarToggle<cr>
+nmap <S-A> :Clap<cr>
 nmap <D-[> :CtrlP<cr>
 nmap <D-]> :CtrlPBufTag<cr>
 nmap <Leader>f :tag<space>

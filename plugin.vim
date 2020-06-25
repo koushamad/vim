@@ -22,6 +22,14 @@ Plugin 'beanworks/vim-phpfmt'
 Plugin 'soramugi/auto-ctags.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'ycm-core/YouCompleteMe'
+Plugin 'zxqfl/tabnine-vim'
+Plugin 'liuchengxu/vim-clap'
+Plugin 'majutsushi/tagbar'
+Plugin 'junegunn/fzf.vim'
+Plugin 'junegunn/fzf'
+Plugin 'dracula/vim', { 'name': 'dracula' }
+
 
 call vundle#end()            " required
 filetype plugin indent on    " required
