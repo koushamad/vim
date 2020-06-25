@@ -1,6 +1,8 @@
 #!/bin/bash
 mkdir ~/.vim
 
+./fonts/install.sh
+
 brew install ctags
 brew install the_silver_searcher
 brew install php-cs-fixer

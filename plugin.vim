@@ -19,6 +19,9 @@ Plugin 'arnaud-lb/vim-php-namespace'
 Plugin 'ervandew/supertab'
 
 Plugin 'beanworks/vim-phpfmt'
+Plugin 'soramugi/auto-ctags.vim'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 
 call vundle#end()            " required
 filetype plugin indent on    " required

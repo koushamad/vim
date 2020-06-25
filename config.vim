@@ -3,13 +3,15 @@ colorscheme atom-dark
 set t_CO=256
 set number
 set noerrorbells visualbell t_vb=
+let g:airline_theme='deus'
+let g:airline_powerline_fonts = 1
 
 set macligatures
 set guioptions-=e
 
 set linespace=15
 set backspace=indent,eol,start
-set guifont=Hack:h12
+set guifont=Hack:h13
 
 set guioptions-=l
 set guioptions-=L
@@ -28,6 +30,13 @@ set autowriteall
 set complete=.,w,b,u
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
 set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
+
+"-------------------------------Ctags----------------------------------"
+let g:auto_ctags = 1
+let g:auto_ctags_directory_list = ['.git', '.svn']
+let g:auto_ctags_tags_name = 'tags'
+let g:auto_ctags_tags_args = ['--tag-relative=yes', '--recurse=yes', '--sort=yes']
+let g:auto_ctags_filetype_mode = 1
 
 "-------------------------------CTRLP----------------------------------"
 let g:ctrlp_custom_ignore = 'git|node_modules\|DS_Store\'
