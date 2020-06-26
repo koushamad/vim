@@ -13,6 +13,7 @@ set guioptions-=e
 set linespace=15
 set backspace=indent,eol,start
 set guifont=Hack:h13
+set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
 
 set guioptions-=l
 set guioptions-=L
@@ -31,7 +32,9 @@ set autowriteall
 set complete=.,w,b,u
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
 set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
-let g:ycm_auto_trigger = 1
+let g:ycm_auto_trigger = 0
+
+
 "-------------------------------Ctags----------------------------------"
 let g:auto_ctags = 1
 let g:auto_ctags_directory_list = ['.git', '.svn']
