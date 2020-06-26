@@ -18,12 +18,13 @@ Plugin 'tpope/vim-surround'
 Plugin 'StanAngeloff/php.vim'
 Plugin 'arnaud-lb/vim-php-namespace'
 Plugin 'ervandew/supertab'
+Plugin 'tobyS/pdv'
+Plugin 'SirVer/ultisnips'
 
 Plugin 'beanworks/vim-phpfmt'
 Plugin 'soramugi/auto-ctags.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'ycm-core/YouCompleteMe'
 Plugin 'zxqfl/tabnine-vim'
 Plugin 'liuchengxu/vim-clap'
 Plugin 'majutsushi/tagbar'
@@ -31,6 +32,13 @@ Plugin 'junegunn/fzf.vim'
 Plugin 'junegunn/fzf'
 Plugin 'dracula/vim', { 'name': 'dracula' }
 Plugin 'mhinz/vim-grepper'
+Plugin 'skanehira/docker-compose.vim'
+Plugin 'vim-test/vim-test'
+Plugin 'Shougo/vimproc'
+Plugin 'Shougo/unite.vim'
+Plugin 'm2mdas/phpcomplete-extended'
+Plugin 'm2mdas/phpcomplete-extended-symfony'
+Plugin 'm2mdas/phpcomplete-extended-laravel'
 
 call vundle#end()            " required
 filetype plugin indent on    " required

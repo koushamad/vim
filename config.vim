@@ -9,6 +9,7 @@ let g:clap_theme = 'material_design_dark'
 
 set macligatures
 set guioptions-=e
+"set mouse-=a
 
 set linespace=13
 set backspace=indent,eol,start
@@ -29,19 +30,14 @@ hi vertsplit guifg=bg  guibg=grey
 set hlsearch
 set incsearch
 set autowriteall
-"set complete=.,w,b,u
+set complete=.,w,b,u
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
 set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
 
-let g:ycm_auto_trigger=1
-set conceallevel=2
-set concealcursor=vin
-let g:clang_snippets=1
-let g:clang_conceal_snippets=1
-let g:clang_snippets_engine='clang_complete'
-set completeopt=menu,menuone
-set pumheight=20
-let g:SuperTabDefaultCompletionType='<c-x><c-u><c-p>'
+"let g:ycm_auto_trigger=1
+autocmd  FileType  php setlocal omnifunc=phpcomplete_extended#CompletePHP
+let g:SuperTabDefaultCompletionType = "<C-z>"
+let g:phpcomplete_index_composer_command='composer'
 
 imap <C-\> <esc>a<Plug>snipMateNextOrTrigger
 smap <C-\> <Plug>snipMateNextOrTrigger

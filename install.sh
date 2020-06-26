@@ -16,4 +16,7 @@ ln -s ~/vim/snippets ~/.vim/snippets
 
 vim +BundleClean +PluginInstall +qall
 
-python3 ~/.vim/bundle/YouCompleteMe/install.py --all
+cd ~/.vim/bundle/vimproc.vim
+make
+cd
+#python3 ~/.vim/bundle/YouCompleteMe/install.py --all

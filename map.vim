@@ -15,9 +15,22 @@ nmap <S-A> :Clap<cr>
 nmap <D-[> :CtrlP<cr>
 nmap <D-]> :CtrlPBufTag<cr>
 nmap <D-G> :Grepper<cr>
-
+nmap <D-‘> :bnext<CR>
+nmap <D-“> :bprevious<CR>
 nmap <Leader>f :tag<space>
+
+"-------------------------------Test----------------------------------"
+nmap <silent> t<C-n> :TestNearest<CR>
+nmap <silent> t<C-f> :TestFile<CR>
+nmap <silent> t<C-s> :TestSuite<CR>
+nmap <silent> t<C-l> :TestLast<CR>
+nmap <silent> t<C-g> :TestVisit<CR>
+
 "-------------------------------Split----------------------------------"
+nmap <C-[> <C-T>
+nmap <D-/> <C-W>
+imap <D-\> <C-\>
+nmap <D-d><D-d> yyp
 nmap <C-W> <C-W><C-W>
 nmap <C-J> <C-W><C-J>
 nmap <C-K> <C-W><C-K>
