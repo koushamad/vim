@@ -10,9 +10,9 @@ let g:clap_theme = 'material_design_dark'
 set macligatures
 set guioptions-=e
 
-set linespace=15
+set linespace=13
 set backspace=indent,eol,start
-set guifont=Hack:h13
+set guifont=MesloLGS\ NF:h12
 set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
 
 set guioptions-=l
@@ -21,7 +21,7 @@ set guioptions-=r
 set guioptions-=R
 
 hi LineNr guibg=bg
-set foldcolumn=2
+set foldcolumn=1
 hi foldcolumn guibg=bg
 hi vertsplit guifg=bg  guibg=grey
 
@@ -29,11 +29,22 @@ hi vertsplit guifg=bg  guibg=grey
 set hlsearch
 set incsearch
 set autowriteall
-set complete=.,w,b,u
+"set complete=.,w,b,u
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
 set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
-let g:ycm_auto_trigger = 0
 
+let g:ycm_auto_trigger=1
+set conceallevel=2
+set concealcursor=vin
+let g:clang_snippets=1
+let g:clang_conceal_snippets=1
+let g:clang_snippets_engine='clang_complete'
+set completeopt=menu,menuone
+set pumheight=20
+let g:SuperTabDefaultCompletionType='<c-x><c-u><c-p>'
+
+imap <C-\> <esc>a<Plug>snipMateNextOrTrigger
+smap <C-\> <Plug>snipMateNextOrTrigger
 
 "-------------------------------Ctags----------------------------------"
 let g:auto_ctags = 1
@@ -42,6 +53,7 @@ let g:auto_ctags_tags_name = 'tags'
 let g:auto_ctags_tags_args = ['--tag-relative=yes', '--recurse=yes', '--sort=yes']
 let g:auto_ctags_filetype_mode = 1
 set tags=tags;/
+
 "-------------------------------CTRLP----------------------------------"
 let g:ctrlp_custom_ignore = 'git|node_modules\|DS_Store\'
 
@@ -51,6 +63,7 @@ let g:grep_cmd_opts = '--line-numbers --noheading'
 
 "-------------------------------NERDTREE----------------------------------"
 let NERDTreeHijackNetrw = 0
+
 "-------------------------------Split----------------------------------"
 set splitbelow
 set splitright

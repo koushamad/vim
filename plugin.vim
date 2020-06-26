@@ -13,7 +13,7 @@ Plugin 'skwp/greplace.vim'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
-"Plugin 'msanders/snipmate.vim'
+Plugin 'honza/vim-snippets'
 Plugin 'tpope/vim-surround'
 Plugin 'StanAngeloff/php.vim'
 Plugin 'arnaud-lb/vim-php-namespace'
@@ -30,7 +30,7 @@ Plugin 'majutsushi/tagbar'
 Plugin 'junegunn/fzf.vim'
 Plugin 'junegunn/fzf'
 Plugin 'dracula/vim', { 'name': 'dracula' }
-
+Plugin 'mhinz/vim-grepper'
 
 call vundle#end()            " required
 filetype plugin indent on    " required

@@ -1,5 +1,5 @@
 #!/bin/bash
-rm -rvf  ~/.vimrc  ~/.gvimrc ~/.vim
+sudo rm -rvf  ~/.vimrc  ~/.gvimrc ~/.vim
 mkdir ~/.vim
 
 ./fonts/install.sh

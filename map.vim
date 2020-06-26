@@ -10,9 +10,12 @@ nmap <Leader>es :e ~/vim/snippets/<cr>
 nmap <Leader><space> :nohlsearch<cr>
 nmap <D-1> :NERDTreeToggle<cr>
 nmap <D-2> :TagbarToggle<cr>
+nmap <D-3> :terminal<cr>
 nmap <S-A> :Clap<cr>
 nmap <D-[> :CtrlP<cr>
 nmap <D-]> :CtrlPBufTag<cr>
+nmap <D-G> :Grepper<cr>
+
 nmap <Leader>f :tag<space>
 "-------------------------------Split----------------------------------"
 nmap <C-W> <C-W><C-W>
