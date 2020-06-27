@@ -26,6 +26,13 @@ set foldcolumn=1
 hi foldcolumn guibg=bg
 hi vertsplit guifg=bg  guibg=grey
 
+"-------------------------------AutoSave----------------------------------"
+let g:auto_save = 1
+let g:auto_save_events = ["InsertLeave", "TextChanged"]
+let g:auto_save_postsave_hook = 'TagsGenerate'
+let g:auto_save_presave_hook = 'PhpFmt'
+let g:auto_save_write_all_buffers = 1
+
 "-------------------------------Search----------------------------------"
 set hlsearch
 set incsearch
@@ -72,5 +79,6 @@ augroup autosourcing
 	autocmd BufWritePost ~/vim/config.vim source %
 	autocmd BufWritePost ~/vim/plugin.vim source %
 	autocmd BufWritePost ~/vim/php.vim source %
+	autocmd BufWritePost ~/vim/symfony.vim source %
 augroup END
 

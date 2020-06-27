@@ -20,7 +20,7 @@ Plugin 'arnaud-lb/vim-php-namespace'
 Plugin 'ervandew/supertab'
 Plugin 'tobyS/pdv'
 Plugin 'SirVer/ultisnips'
-
+Plugin 'vim-vdebug/vdebug'
 Plugin 'beanworks/vim-phpfmt'
 Plugin 'soramugi/auto-ctags.vim'
 Plugin 'vim-airline/vim-airline'
@@ -39,6 +39,8 @@ Plugin 'Shougo/unite.vim'
 Plugin 'm2mdas/phpcomplete-extended'
 Plugin 'm2mdas/phpcomplete-extended-symfony'
 Plugin 'm2mdas/phpcomplete-extended-laravel'
+Plugin '907th/vim-auto-save'
+Plugin 'szw/vim-tags'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
