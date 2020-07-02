@@ -30,6 +30,27 @@ nmap <silent> t<C-s> :TestSuite<CR>
 nmap <silent> t<C-l> :TestLast<CR>
 nmap <silent> t<C-g> :TestVisit<CR>
 
+"-------------------------------TabBar----------------------------------"
+nmap <leader>{ <Plug>vem_move_buffer_left-
+nmap <leader>} <Plug>vem_move_buffer_right-
+nmap <leader>[ <Plug>vem_prev_buffer-
+nmap <leader>] <Plug>vem_next_buffer-
+
+function! DeleteCurrentBuffer() abort
+    let current_buffer = bufnr('%')
+    let next_buffer = g:vem_tabline#tabline.get_replacement_buffer()
+    try
+        exec 'confirm ' . current_buffer . 'bdelete'
+        if next_buffer != 0
+            exec next_buffer . 'buffer'
+        endif
+    catch /E516:/
+       " If the operation is cancelled, do nothing
+    endtry
+endfunction
+
+nmap <leader>\ :call DeleteCurrentBuffer()<CR>
+
 "-------------------------------Split----------------------------------"
 nmap <C-[> <C-T>
 map <D-/> <C-W>
