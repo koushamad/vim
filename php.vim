@@ -17,7 +17,7 @@ autocmd FileType php noremap <Leader>u :call PhpExpandClass()<CR>
 :map <D-R> :w!<CR>:!php %<CR>
 :map <D-r> :terminal php -S localhost:8000 -t public/ <CR>
 
-"-------------------------------PHPCodeStype----------------------------------"
+"-------------------------------PHPXdebug----------------------------------"
 let g:vdebug_keymap = {
 \    "run" : "<Leader>/",
 \    "run_to_cursor" : "<D-Down>",
@@ -35,9 +35,20 @@ let g:vdebug_options = {'port': '9000'}
 
 "-------------------------------PHPCodeStype----------------------------------"
 let g:phpfmt_standard = 'PSR2'
-let g:phpfmt_autosave = 1
+let g:phpfmt_autosave = 0
+let g:phpfmt_autoformat = 0
+let g:php_cs_fixer_level="symfony"
+let g:php_cs_fixer_config="default"
+let g:php_cs_fixer_php_path="php"
+let g:tagbar_phpctags_memory_limit = '1024M'
+let g:tagbar_phpctags_bin='~/.vim/bundle/phpctags/bin/phpctags'
+
+"-------------------------------AutoComplit----------------------------------"
+let g:phpcomplete_index_composer_command="composer"
+autocmd FileType php setlocal omnifunc=phpcomplete_extended#CompletePHP
 
 "-------------------------------PDV----------------------------------"
 let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
 nnoremap <Leader>d :call pdv#DocumentWithSnip()<CR>
+"let g:SuperTabDefaultCompletionType = '<c-x><c-n>'
 

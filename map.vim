@@ -3,21 +3,25 @@ let mapleader = ','
 nmap <Leader>ev :tabedit ~/vim/vimrc.vim<cr>
 nmap <Leader>ec :tabedit ~/vim/config.vim<cr>
 nmap <Leader>em :tabedit ~/vim/map.vim<cr>
-nmap <Leader>ep :tabedit ~/vim/plugin.vim<cr>
+nmap <Leader>eb :tabedit ~/vim/plugin.vim<cr>
 nmap <Leader>es :e ~/vim/snippets/<cr>
+nmap <Leader>ep :tabedit ~/vim/php.vim<cr>
+nmap <Leader>eps :tabedit ~/vim/symfony.vim<cr>
 
 "-------------------------------Search----------------------------------"
 nmap <Leader><space> :nohlsearch<cr>
 nmap <D-1> :NERDTreeToggle<cr>
-nmap <D-2> :TagbarToggle<cr>
-nmap <D-3> :terminal<cr>
+nmap <D-2> :terminal<cr>
+nmap <D-3> :TagbarToggle<cr>
 nmap <S-A> :Clap<cr>
+
 nmap <D-[> :CtrlP<cr>
 nmap <D-]> :CtrlPBufTag<cr>
 nmap <D-G> :Grepper<cr>
 nmap <D-‘> :bnext<CR>
 nmap <D-“> :bprevious<CR>
 nmap <Leader>f :tag<space>
+nmap <Leader>w :PhpFmt<cr>:TagsGenerate<cr>:w<cr>
 
 "-------------------------------Test----------------------------------"
 nmap <silent> t<C-n> :TestNearest<CR>
@@ -28,7 +32,7 @@ nmap <silent> t<C-g> :TestVisit<CR>
 
 "-------------------------------Split----------------------------------"
 nmap <C-[> <C-T>
-nmap <D-/> <C-W>
+map <D-/> <C-W>
 imap <D-\> <C-\>
 nmap <D-d><D-d> yyp
 nmap <C-W> <C-W><C-W>
