@@ -33,6 +33,9 @@ let g:vdebug_options = {'break_on_open': 0}
 let g:vdebug_options = {'server': 'localhost'}
 let g:vdebug_options = {'port': '9000'}
 
+"-------------------------------Ctags----------------------------------"
+nmap <Leader>pc :!ctags -R --languages=php . <cr>
+
 "-------------------------------PHPCodeStype----------------------------------"
 let g:phpfmt_standard = 'PSR2'
 let g:phpfmt_autosave = 0

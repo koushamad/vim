@@ -1,10 +1,12 @@
 nmap <Leader>sc :terminal php bin/console
+nmap <Leader>sa :terminal php bin/console about<cr>
 nmap <Leader>ss :!symfony serve -d<cr>
 nmap <Leader>sss :!symfony server:stop<cr>
 nmap <Leader>sr :!php bin/console  debug:router<cr>
 nmap <Leader>scc :!php bin/console  cache:clear<cr>
 nmap <Leader>sda :terminal ./bin/console debug:autowiring
 nmap <Leader>sdc :terminal ./bin/console debug:container
+nmap <Leader>sdcp :terminal ./bin/console debug:container --parameters
 nmap <Leader>scd :terminal ./bin/console config:dump
 
 nmap <Leader>yw :terminal yarn watch<cr>
