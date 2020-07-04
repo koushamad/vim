@@ -5,7 +5,7 @@ mkdir ~/.vim
 ./fonts/install.sh
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
-brew install cmake macvim python mono go nodejs ctags the_silver_searcher php-cs-fixer wget
+brew install cmake macvim python mono go nodejs ctags the_silver_searcher php-cs-fixer wget yarn
 
 ln -s ~/vim/vimrc.vim ~/.vimrc
 ln -s ~/vim/gvimrc.vim ~/.gvimrc
