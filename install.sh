@@ -6,7 +6,7 @@ mkdir ~/.vim
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
-brew install cmake macvim python mono go nodejs ctags the_silver_searcher php-cs-fixer wget yarn
+brew install cmake macvim python mono go nodejs ctags the_silver_searcher php-cs-fixer wget yarn tmux gotop mitmproxy lynx mutt
 
 ln -s ~/vim/vimrc.vim ~/.vimrc
 ln -s ~/vim/gvimrc.vim ~/.gvimrc
