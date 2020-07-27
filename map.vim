@@ -51,6 +51,14 @@ endfunction
 
 nmap <leader>\ :call DeleteCurrentBuffer()<CR>
 
+"-------------------------------Docker----------------------------------"
+nmap <Leader>dcu :terminal docker-compose up<cr>
+nmap <Leader>dcud :terminal docker-compose up -d<cr>
+nmap <Leader>dcudb :terminal docker-compose up -d --build<cr>
+nmap <Leader>dcub :terminal docker-compose up --build<cr>
+nmap <leader>dcd :terminal docker-compose down<cr>
+nmap <leader>ds :!docker ps<cr>
+
 "-------------------------------Split----------------------------------"
 nmap <C-[> <C-T>
 map <D-/> <C-W>
