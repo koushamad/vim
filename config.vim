@@ -73,7 +73,7 @@ let g:auto_ctags_directory_list = ['.git', '.svn']
 let g:auto_ctags_tags_name = 'tags'
 let g:auto_ctags_tags_args = ['--tag-relative=yes', '--recurse=yes', '--sort=yes']
 let g:auto_ctags_filetype_mode = 1
-set tags=tags;/
+set tags=.git/tags;~/.vim/tags
 
 "-------------------------------CTRLP----------------------------------"
 let g:ctrlp_custom_ignore = 'git|node_modules\|DS_Store\'

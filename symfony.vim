@@ -16,6 +16,7 @@ nmap <Leader>yw :terminal yarn watch<cr>
 
 nmap <Leader>cl :terminal composer recipes
 nmap <Leader>cd :!composer dumpautoload<cr>
+nmap <Leader>ci :!composer install<cr>
 nmap <Leader>cr :terminal composer require
 nmap <Leader>cu :terminal composer unpack
 

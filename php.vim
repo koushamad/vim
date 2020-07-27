@@ -34,7 +34,7 @@ let g:vdebug_options = {'server': 'localhost'}
 let g:vdebug_options = {'port': '9000'}
 
 "-------------------------------Ctags----------------------------------"
-nmap <Leader>pc :!ctags -R --languages=php . <cr>
+nmap <Leader>tr :!ctags -f "./.git/tags" --sort -R --languages=php . <cr>
 
 "-------------------------------PHPCodeStype----------------------------------"
 let g:phpfmt_standard = 'PSR2'
