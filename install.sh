@@ -13,6 +13,7 @@ ln -s ~/vim/fonts ~/.vim/fonts
 ln -s ~/vim/colors ~/.vim/colors
 ln -s ~/vim/autoload ~/.vim/autoload
 ln -s ~/vim/snippets ~/.vim/snippets
+ln -s ~/vim/tmux.conf ~/.tmux.conf
 
 vim +BundleClean +PluginInstall +qall
 
