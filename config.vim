@@ -1,3 +1,4 @@
+"Defoult configuration"
 syntax enable
 colorscheme dracula
 set t_CO=256
@@ -5,15 +6,41 @@ set number
 set noerrorbells visualbell t_vb=
 let g:airline_theme='dracula'
 let g:airline_powerline_fonts = 1
-let g:clap_theme = 'material_design_dark'
+let g:auto_save_events = ["InsertLeave", "TextChanged"]
+let g:auto_save_silent = 1
+autocmd BufNewFile,BufRead *.go setlocal noexpandtab
 
+let g:tagbar_left = 1
+let g:clap_theme = 'material_design_dark'
+let g:go_list_type = "quickfix"
+let g:go_fmt_command = "goimports"
+let g:go_textobj_include_function_doc = 0
+let g:go_highlight_types = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_function_calls = 1
+let g:go_metalinter_enabled = ['vet', 'golint', 'errcheck']
+let g:go_metalinter_autosave = 1
+let g:go_metalinter_autosave_enabled = ['vet', 'golint']
+let g:go_metalinter_deadline = "5s"
+let g:go_def_mode = 'godef'
+let g:go_decls_includes = "func,type"
+let g:go_decls_includes = "func"
+let g:go_auto_type_info = 1
+set updatetime=100
+let g:go_auto_sameids = 1
+let g:gounit_bin = '/Users/kousha/go/bin/gounit'
+let g:deoplete#enable_at_startup = 1
+let g:tex_flavor = 'latex'
+
+set autowrite
 set macligatures
 set guioptions-=e
 "set mouse-=a
 
 set linespace=13
 set backspace=indent,eol,start
-set guifont=MesloLGS\ NF:h12
+set guifont=MesloLGS\ NF:h18
 set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
 
 set guioptions-=l
@@ -26,91 +53,19 @@ set foldcolumn=1
 hi foldcolumn guibg=bg
 hi vertsplit guifg=bg  guibg=grey
 
-"-------------------------------AutoComplit----------------------------------"
-set complete=.,w,b,u
 
-"-------------------------------Twig----------------------------------"
-let g:neosnippet#snippets_directory='~/.vim/bundle/twig.vim/neosnippets'
+" Run :GoBuild or :GoTestCompile based on the go file
+function! s:build_go_files()
+  let l:file = expand('%')
+  if l:file =~# '^\f\+_test\.go$'
+    call go#test#Test(0, 1)
+  elseif l:file =~# '^\f\+\.go$'
+    call go#cmd#Build(0)
+  endif
+endfunction
 
-"-------------------------------SyntaxCheck----------------------------------"
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
 
-let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
-let g:syntastic_aggregate_errors = 1
-let g:syntastic_enable_perl_checker = 1
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-
-"-------------------------------AutoSave----------------------------------"
-let g:auto_save = 0
-let g:auto_save_events = ["InsertLeave", "TextChanged"]
-let g:auto_save_postsave_hook = 'TagsGenerate'
-let g:auto_save_presave_hook = 'PhpFmt'
-let g:auto_save_write_all_buffers = 0
-
-"-------------------------------Search----------------------------------"
-set hlsearch
-set incsearch
-set autowriteall
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
-set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
-
-"let g:ycm_auto_trigger=1
-autocmd  FileType  php setlocal omnifunc=phpcomplete_extended#CompletePHP
-let g:SuperTabDefaultCompletionType = "<C-z>"
-let g:phpcomplete_index_composer_command='composer'
-
-imap <C-\> <esc>a<Plug>snipMateNextOrTrigger
-smap <C-\> <Plug>snipMateNextOrTrigger
-
-"-------------------------------Ctags----------------------------------"
-let g:auto_ctags = 1
-let g:auto_ctags_directory_list = ['.git', '.svn']
-let g:auto_ctags_tags_name = 'tags'
-let g:auto_ctags_tags_args = ['--tag-relative=yes', '--recurse=yes', '--sort=yes']
-let g:auto_ctags_filetype_mode = 1
-set tags=.git/tags;~/.vim/tags
-
-"-------------------------------CTRLP----------------------------------"
-let g:ctrlp_custom_ignore = 'git|node_modules\|DS_Store\'
-
-"-------------------------------GReplace----------------------------------"
-set grepprg=ag
-let g:grep_cmd_opts = '--line-numbers --noheading'
-
-"-------------------------------NERDTREE----------------------------------"
-let NERDTreeHijackNetrw = 0
-
-"-------------------------------VimRestConsole----------------------------------"
-let g:vrc_curl_opts = {
-  \ '--connect-timeout' : 10,
-  \ '-L': '',
-  \ '-b': '~/.vim/cookie',
-  \ '-c': '~/.vim/cookie',
-  \ '-i': '',
-  \ '--max-time': 60,
-  \ '--ipv4': '',
-  \ '-k': '',
-\}
-"-------------------------------SyntactChecker----------------------------------"
-let g:syntastic_mode_map = {"mode": "active", "passive_filetypes": ["twig"] }
-
-"-------------------------------Split----------------------------------"
-set splitbelow
-set splitright
-
-"-------------------------------AutoCmmd----------------------------------"
-augroup autosourcing
-	autocmd!
-	autocmd BufWritePost ~/vim/vimrc.vim source %
-	autocmd BufWritePost ~/vim/map.vim source %
-	autocmd BufWritePost ~/vim/config.vim source %
-	autocmd BufWritePost ~/vim/plugin.vim source %
-	autocmd BufWritePost ~/vim/php.vim source %
-	autocmd BufWritePost ~/vim/symfony.vim source %
-augroup END
+call deoplete#custom#option('omni_patterns', {
+\ 'go': '[^. *\t]\.\w*',
+\})
 

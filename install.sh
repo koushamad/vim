@@ -18,8 +18,6 @@ ln -s ~/vim/tmux.conf ~/.tmux.conf
 
 vim +BundleClean +PluginInstall +qall
 
-composer require global nikic/php-parser
-
 cd ~/.vim/bundle/vimproc
 make
 cd

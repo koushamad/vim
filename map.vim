@@ -1,72 +1,41 @@
 let mapleader = ','
 "-------------------------------Vimrc----------------------------------"
-nmap <Leader>ev :tabedit ~/vim/vimrc.vim<cr>
-nmap <Leader>ec :tabedit ~/vim/config.vim<cr>
-nmap <Leader>em :tabedit ~/vim/map.vim<cr>
-nmap <Leader>eb :tabedit ~/vim/plugin.vim<cr>
-nmap <Leader>es :e ~/vim/snippets/<cr>
-nmap <Leader>ep :tabedit ~/vim/php.vim<cr>
-nmap <Leader>eps :tabedit ~/vim/symfony.vim<cr>
+nmap <Leader>vv :tabedit ~/vim/vimrc.vim<cr>
+nmap <Leader>vc :tabedit ~/vim/config.vim<cr>
+nmap <Leader>vm :tabedit ~/vim/map.vim<cr>
+nmap <Leader>vp :tabedit ~/vim/plugin.vim<cr>
 
-"-------------------------------Search----------------------------------"
-nmap <Leader><space> :nohlsearch<cr>
-nmap <D-1> :NERDTreeToggle<cr>
-nmap <D-2> :terminal<cr>
-nmap <D-3> :TagbarToggle<cr>
-nmap <S-A> :Clap<cr>
+"------------------------------Windows----------------------------------"
+nmap <D-1> :silent! NERDTreeToggle<cr>
+nmap <D-2> :silent! TagbarToggle<cr>
 
-nmap <D-[> :CtrlP<cr>
-nmap <D-]> :CtrlPBufTag<cr>
-nmap <D-G> :Grepper<cr>
-nmap <D-‘> :bnext<CR>
-nmap <D-“> :bprevious<CR>
-nmap <Leader>f :tag<space>
-nmap <Leader>w :PhpFmt<cr>:TagsGenerate<cr>:w<cr>
+nmap <D-0> :silent! TerminalTab zsh<cr>
 
-"-------------------------------Test----------------------------------"
-nmap <silent> t<C-n> :TestNearest<CR>
-nmap <silent> t<C-f> :TestFile<CR>
-nmap <silent> t<C-s> :TestSuite<CR>
-nmap <silent> t<C-l> :TestLast<CR>
-nmap <silent> t<C-g> :TestVisit<CR>
+"------------------------------Go---------------------------------------"
+map <C-n> :cnext<CR>
+map <C-m> :cprevious<CR>
+map <D-t> :GoAlternate<CR>
+map <D-j> :GoDeclsDir<CR>
+map <D-s> :GoCallers<CR>
+map <D-S> :GoCallstack<CR>
+map <D-A> :GoGuruScope ...<CR>
+map <D-r> :GoRename<CR>
+nnoremap <leader>a :cclose<CR>
+nnoremap <D-w> <C-w>
 
-"-------------------------------TabBar----------------------------------"
-nmap <leader>{ <Plug>vem_move_buffer_left-
-nmap <leader>} <Plug>vem_move_buffer_right-
-nmap <leader>[ <Plug>vem_prev_buffer-
-nmap <leader>] <Plug>vem_next_buffer-
+autocmd FileType go nmap <leader>b  <Plug>(go-build)
+autocmd FileType go nmap <leader>r  <Plug>(go-run)
+autocmd FileType go nmap <leader>t  <Plug>(go-test)
+autocmd FileType go nmap <Leader>c <Plug>(go-coverage-toggle)
+autocmd FileType go nmap <Leader>i <Plug>(go-info)
 
-function! DeleteCurrentBuffer() abort
-    let current_buffer = bufnr('%')
-    let next_buffer = g:vem_tabline#tabline.get_replacement_buffer()
-    try
-        exec 'confirm ' . current_buffer . 'bdelete'
-        if next_buffer != 0
-            exec next_buffer . 'buffer'
-        endif
-    catch /E516:/
-       " If the operation is cancelled, do nothing
-    endtry
-endfunction
+nnoremap <leader>gt :normal vaf<cr>:GoUnit<cr>
+nnoremap <leader>p :! go test -bench=BenchmarkRand -benchmem -cpuprofile test.out && go tool pprof -top test.out && rm test.out *.test<CR>
+nnoremap <leader>tt :! gotestsum -f standard-verbose<CR>
+nnoremap <leader>g :! go build --gcflags "-m" . <CR>
+nnoremap <leader>gg :! go build --gcflags "-m -m" . <CR>
 
-nmap <leader>\ :call DeleteCurrentBuffer()<CR>
-
-"-------------------------------Docker----------------------------------"
-nmap <Leader>dcu :terminal docker-compose up<cr>
-nmap <Leader>dcud :terminal docker-compose up -d<cr>
-nmap <Leader>dcudb :terminal docker-compose up -d --build<cr>
-nmap <Leader>dcub :terminal docker-compose up --build<cr>
-nmap <leader>dcd :terminal docker-compose down<cr>
-nmap <leader>ds :!docker ps<cr>
-
-"-------------------------------Split----------------------------------"
-nmap <C-[> <C-T>
-map <D-/> <C-W>
-imap <D-\> <C-\>
-nmap <D-d><D-d> yyp
-nmap <C-W> <C-W><C-W>
-nmap <C-J> <C-W><C-J>
-nmap <C-K> <C-W><C-K>
-nmap <C-H> <C-W><C-H>
-nmap <C-L> <C-W><C-L>
-
+autocmd Filetype go command! -bang A call go#alternate#Switch(<bang>0, 'edit')
+autocmd Filetype go command! -bang AV call go#alternate#Switch(<bang>0, 'vsplit')
+autocmd Filetype go command! -bang AS call go#alternate#Switch(<bang>0, 'split')
+autocmd Filetype go command! -bang AT call go#alternate#Switch(<bang>0, 'tabe')
