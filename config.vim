@@ -53,6 +53,18 @@ set foldcolumn=1
 hi foldcolumn guibg=bg
 hi vertsplit guifg=bg  guibg=grey
 
+let g:gitgutter_sign_added = '+'
+let g:gitgutter_sign_modified = '>'
+let g:gitgutter_sign_removed = '-'
+let g:gitgutter_sign_removed_first_line = '^'
+let g:gitgutter_sign_modified_removed = '<'
+let g:magit_discard_untracked_do_delete=1
+
+let g:gitgutter_override_sign_column_highlight = 1
+highlight SignColumn guibg=bg
+highlight SignColumn ctermbg=bg
+
+set updatetime=250
 
 " Run :GoBuild or :GoTestCompile based on the go file
 function! s:build_go_files()

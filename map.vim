@@ -39,3 +39,13 @@ autocmd Filetype go command! -bang A call go#alternate#Switch(<bang>0, 'edit')
 autocmd Filetype go command! -bang AV call go#alternate#Switch(<bang>0, 'vsplit')
 autocmd Filetype go command! -bang AS call go#alternate#Switch(<bang>0, 'split')
 autocmd Filetype go command! -bang AT call go#alternate#Switch(<bang>0, 'tabe')
+
+nmap <Leader>gn <Plug>GitGutterNextHunk     " git next
+nmap <Leader>gp <Plug>GitGutterPrevHunk     " git previous
+nmap <Leader>ga <Plug>GitGutterStageHunk    " git add (chunk)
+nmap <Leader>gu <Plug>GitGutterUndoHunk     " git undo (chunk)
+nnoremap <leader>gs :Magit<CR>              " git status
+nnoremap <leader>gP :! git push<CR>         " git Push
+nnoremap <Leader>gb :Gblame<CR>             " git blame
+nnoremap <Leader>gb :.Gbrowse<CR>           " Open current line in the browser
+nnoremap <Leader>gaf :Gw<CR>                " git add file
