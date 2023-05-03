@@ -8,6 +8,20 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 brew install cmake macvim python mono go nodejs ctags the_silver_searcher php-cs-fixer wget yarn tmux gotop mitmproxy lynx mutt
 
+go install github.com/hexdigest/gounit/cmd/gounit@latest
+go install github.com/nsf/gocode@latast
+go install github.com/stamblerre/gocode@latest
+go install gocode@latest
+go install gotest.tools/gotestsum@latest
+go install github.com/asciimoo/wuzz@latest
+
+
+gounit template add ~/vim/GoUnitTemplates/minimock
+gounit template add ~/vim/GoUnitTemplates/testify
+gounit template add ~/vim/GoUnitTemplates/simple
+
+gounit template use minimock
+
 ln -s ~/vim/vimrc.vim ~/.vimrc
 ln -s ~/vim/gvimrc.vim ~/.gvimrc
 ln -s ~/vim/fonts ~/.vim/fonts
